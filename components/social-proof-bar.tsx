@@ -17,7 +17,7 @@ export function SocialProofBar() {
     <section className="border-t border-border/40 bg-card/20">
       <div className="mx-auto max-w-7xl px-6 py-12">
         <p className="mb-8 text-center text-sm text-muted-foreground">
-          Trusted by leading brands and agencies worldwide
+          Powered by TelmarHelixa. Trusted by leading agencies, media companies and brands worldwide.
         </p>
         
         <div className="relative overflow-hidden">
