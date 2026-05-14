@@ -5,8 +5,11 @@ import { Sparkles } from "lucide-react"
 
 export function VerseAIBlock() {
   return (
-    <section className="relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-r from-[#F15E24]/10 via-[#C52F86]/10 to-[#5EC4B6]/10" />
+    <section className="relative overflow-hidden py-8">
+      {/* Gradient glows - matching hero and CTA sections */}
+      <div className="absolute top-1/4 left-1/4 h-[400px] w-[400px] rounded-full bg-[#F15E24]/20 blur-[100px]" />
+      <div className="absolute bottom-1/4 right-1/4 h-[350px] w-[350px] rounded-full bg-[#C52F86]/15 blur-[90px]" />
+      <div className="absolute top-1/2 right-1/2 h-[250px] w-[250px] rounded-full bg-[#5EC4B6]/10 blur-[70px]" />
       
       <div className="relative mx-auto max-w-4xl px-6 py-20 text-center">
         <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-[#F15E24]/40 bg-[#F15E24]/10 px-4 py-1.5 text-sm font-medium text-[#F15E24]">
