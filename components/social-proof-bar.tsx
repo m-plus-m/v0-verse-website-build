@@ -25,12 +25,12 @@ export function SocialProofBar() {
             {[...logos, ...logos].map((logo, index) => (
               <div
                 key={index}
-                className="flex h-12 min-w-[120px] items-center justify-center"
+                className="flex h-14 min-w-[140px] items-center justify-center rounded-lg bg-white/90 px-4"
               >
                 <img
                   src={logo.src}
                   alt={logo.alt}
-                  className="h-10 w-auto max-w-[120px] object-contain brightness-0 invert opacity-70 hover:opacity-100 transition-opacity"
+                  className="h-10 w-auto max-w-[120px] object-contain"
                 />
               </div>
             ))}
