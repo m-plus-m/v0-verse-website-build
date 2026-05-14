@@ -6,19 +6,22 @@ import { ArrowRight, Sparkles } from "lucide-react"
 export function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
-      {/* Subtle gradient glow */}
-      <div className="absolute top-1/4 right-1/4 h-[500px] w-[500px] rounded-full bg-accent/20 blur-[120px]" />
-      <div className="absolute bottom-1/4 left-1/4 h-[400px] w-[400px] rounded-full bg-accent/10 blur-[100px]" />
+      {/* Gradient glows - Orange and Magenta */}
+      <div className="absolute top-1/4 right-1/4 h-[500px] w-[500px] rounded-full bg-[#F15E24]/25 blur-[120px]" />
+      <div className="absolute bottom-1/3 left-1/4 h-[450px] w-[450px] rounded-full bg-[#C52F86]/20 blur-[100px]" />
+      <div className="absolute top-1/2 right-1/3 h-[300px] w-[300px] rounded-full bg-[#5EC4B6]/15 blur-[80px]" />
       
       <div className="relative z-10 mx-auto max-w-5xl px-6 text-center">
-        <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-border/60 bg-secondary/50 px-4 py-1.5 text-sm text-muted-foreground">
+        <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-border/60 bg-card/50 px-4 py-1.5 text-sm text-muted-foreground backdrop-blur-sm">
           <Sparkles className="h-3.5 w-3.5 text-accent" />
           <span>Powered by 50+ years of audience intelligence</span>
         </div>
         
         <h1 className="text-balance text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
           Know your audience.{" "}
-          <span className="text-muted-foreground">Reach them effectively.</span>
+          <span className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] bg-clip-text text-transparent">
+            Reach them effectively.
+          </span>
         </h1>
         
         <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg text-muted-foreground leading-relaxed">
@@ -27,11 +30,11 @@ export function HeroSection() {
         </p>
         
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-          <Button size="lg" className="bg-foreground text-background hover:bg-foreground/90 gap-2 px-8">
+          <Button size="lg" className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] text-white hover:opacity-90 gap-2 px-8 border-0">
             Book a Demo
             <ArrowRight className="h-4 w-4" />
           </Button>
-          <Button size="lg" variant="outline" className="border-border/60 text-foreground hover:bg-secondary">
+          <Button size="lg" variant="outline" className="border-accent/60 text-foreground hover:bg-accent/10 hover:border-accent">
             Get Early Access
           </Button>
         </div>
