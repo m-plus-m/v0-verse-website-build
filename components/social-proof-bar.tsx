@@ -1,14 +1,16 @@
 "use client"
 
+import Image from "next/image"
+
 export function SocialProofBar() {
-  // Placeholder logos - in production, replace with actual client logos
   const logos = [
-    "Global Agency",
-    "MediaCorp",
-    "BrandX",
-    "AdNetwork",
-    "InsightCo",
-    "DataFirst",
+    { src: "https://telmarhelixa.com/hubfs/collab%20logo.png", alt: "Collab" },
+    { src: "https://telmarhelixa.com/hubfs/OMG.jpg", alt: "OMG" },
+    { src: "https://telmarhelixa.com/hubfs/ITV.jpg", alt: "ITV" },
+    { src: "https://telmarhelixa.com/hubfs/%C6%B5avemaker.jpg", alt: "Wavemaker" },
+    { src: "https://telmarhelixa.com/hubfs/rauxa%20logo.png", alt: "Rauxa" },
+    { src: "https://telmarhelixa.com/hubfs/logo-testimonial.jpg", alt: "Partner" },
+    { src: "https://telmarhelixa.com/hubfs/vm.jpg", alt: "VM" },
   ]
 
   return (
@@ -19,15 +21,17 @@ export function SocialProofBar() {
         </p>
         
         <div className="relative overflow-hidden">
-          <div className="flex animate-scroll gap-12">
+          <div className="flex animate-scroll items-center gap-16">
             {[...logos, ...logos].map((logo, index) => (
               <div
                 key={index}
-                className="flex h-10 min-w-[140px] items-center justify-center rounded-lg border border-border/30 bg-card/50 px-6"
+                className="flex h-12 min-w-[120px] items-center justify-center"
               >
-                <span className="text-sm font-medium text-muted-foreground/70 whitespace-nowrap">
-                  {logo}
-                </span>
+                <img
+                  src={logo.src}
+                  alt={logo.alt}
+                  className="h-10 w-auto max-w-[120px] object-contain brightness-0 invert opacity-70 hover:opacity-100 transition-opacity"
+                />
               </div>
             ))}
           </div>
@@ -44,7 +48,7 @@ export function SocialProofBar() {
           }
         }
         .animate-scroll {
-          animation: scroll 20s linear infinite;
+          animation: scroll 25s linear infinite;
         }
       `}</style>
     </section>
