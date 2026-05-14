@@ -16,7 +16,7 @@ export function CTASection() {
         <h2 className="text-balance text-3xl font-bold tracking-tight sm:text-4xl text-foreground">
           From insight to action.{" "}
           <span className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] bg-clip-text text-transparent">
-            One platform.
+            In perfect harmony.
           </span>
         </h2>
         
