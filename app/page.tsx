@@ -1,7 +1,11 @@
 import { Header } from "@/components/header"
 import { HeroSection } from "@/components/hero-section"
-import { FeaturesSection } from "@/components/features-section"
-import { AboutSection } from "@/components/about-section"
+import { StatsBar } from "@/components/stats-bar"
+import { PositioningSection } from "@/components/positioning-section"
+import { SolutionCards } from "@/components/solution-cards"
+import { VerseAIBlock } from "@/components/verse-ai-block"
+import { WhoItsFor } from "@/components/who-its-for"
+import { SocialProofBar } from "@/components/social-proof-bar"
 import { CTASection } from "@/components/cta-section"
 import { Footer } from "@/components/footer"
 
@@ -10,8 +14,12 @@ export default function HomePage() {
     <main className="min-h-screen">
       <Header />
       <HeroSection />
-      <FeaturesSection />
-      <AboutSection />
+      <StatsBar />
+      <PositioningSection />
+      <SolutionCards />
+      <VerseAIBlock />
+      <WhoItsFor />
+      <SocialProofBar />
       <CTASection />
       <Footer />
     </main>

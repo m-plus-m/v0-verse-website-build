@@ -7,8 +7,12 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Verse by TelmarHelixa | AI-Powered Audience Intelligence',
-  description: 'Verse puts an AI overlay onto 50+ years of audience intelligence, helping you identify ideal consumers and effectively market to them.',
+  title: 'Verse | From Brief to Plan in One Workflow',
+  description: 'AI-powered audience intelligence that connects research, profiling and media planning. Move from brief to plan across 45+ data providers, 17 countries and 30+ media types.',
+  openGraph: {
+    title: 'Verse — From Brief to Plan in One Workflow',
+    description: 'One platform for audience intelligence, profiling and media planning. Book a demo.',
+  },
   generator: 'v0.app',
   icons: {
     icon: [

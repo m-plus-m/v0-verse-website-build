@@ -14,23 +14,16 @@ export function CTASection() {
       
       <div className="relative mx-auto max-w-3xl px-6 py-24 text-center">
         <h2 className="text-balance text-3xl font-bold tracking-tight sm:text-4xl text-foreground">
-          Ready to transform your{" "}
+          From insight to action.{" "}
           <span className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] bg-clip-text text-transparent">
-            audience strategy?
+            One platform.
           </span>
         </h2>
-        <p className="mx-auto mt-4 max-w-xl text-muted-foreground">
-          Join leading brands using Verse to discover, understand, 
-          and reach their ideal consumers.
-        </p>
         
-        <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+        <div className="mt-10">
           <Button size="lg" className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] text-white hover:opacity-90 gap-2 px-8 border-0">
             Book a Demo
             <ArrowRight className="h-4 w-4" />
-          </Button>
-          <Button size="lg" variant="outline" className="border-accent/60 text-foreground hover:bg-accent/10 hover:border-accent">
-            Get Early Access
           </Button>
         </div>
       </div>

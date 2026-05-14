@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { Linkedin } from "lucide-react"
 
 export function Footer() {
   return (
@@ -9,25 +10,26 @@ export function Footer() {
             <div className="h-5 w-5 rounded bg-gradient-to-br from-[#F15E24] to-[#C52F86] flex items-center justify-center">
               <span className="text-white text-[10px] font-bold">V</span>
             </div>
-            <span className="text-sm font-medium text-foreground">verse</span>
-            <span className="text-sm text-muted-foreground">by TelmarHelixa</span>
+            <span className="text-sm font-medium text-foreground">Verse</span>
+            <span className="text-sm text-muted-foreground">| Powered by TelmarHelixa</span>
           </div>
           
           <div className="flex items-center gap-6 text-sm text-muted-foreground">
+            <Link 
+              href="#" 
+              className="hover:text-accent transition-colors inline-flex items-center gap-1.5"
+              aria-label="LinkedIn"
+            >
+              <Linkedin className="h-4 w-4" />
+              <span className="sr-only">LinkedIn</span>
+            </Link>
             <Link href="#" className="hover:text-accent transition-colors">
-              Privacy
+              Privacy Policy
             </Link>
             <Link href="#" className="hover:text-accent transition-colors">
               Terms
             </Link>
-            <Link href="#" className="hover:text-accent transition-colors">
-              Contact
-            </Link>
           </div>
-        </div>
-        
-        <div className="mt-8 text-center text-xs text-muted-foreground">
-          © {new Date().getFullYear()} TelmarHelixa. All rights reserved.
         </div>
       </div>
     </footer>
