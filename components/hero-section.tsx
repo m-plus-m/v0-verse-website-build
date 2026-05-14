@@ -1,7 +1,8 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Sparkles } from "lucide-react"
+import { ArrowRight } from "lucide-react"
+import { BrandReveal } from "@/components/brand-reveal"
 
 export function HeroSection() {
   return (
@@ -12,12 +13,9 @@ export function HeroSection() {
       <div className="absolute top-1/2 right-1/3 h-[300px] w-[300px] rounded-full bg-[#5EC4B6]/15 blur-[80px]" />
       
       <div className="relative z-10 mx-auto max-w-5xl px-6 text-center">
-        <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-border/60 bg-card/50 px-4 py-1.5 text-sm text-muted-foreground backdrop-blur-sm">
-          <Sparkles className="h-3.5 w-3.5 text-accent" />
-          <span>Powered by 50+ years of audience intelligence</span>
-        </div>
+        <BrandReveal />
         
-        <h1 className="text-balance text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
+        <h1 className="text-balance text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
           Global Audience Intelligence,{" "}
           <span className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] bg-clip-text text-transparent">
             Harmonized.
