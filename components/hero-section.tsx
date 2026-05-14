@@ -18,9 +18,9 @@ export function HeroSection() {
         </div>
         
         <h1 className="text-balance text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
-          Know your audience.{" "}
+          Global Audience Intelligence,{" "}
           <span className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] bg-clip-text text-transparent">
-            Reach them effectively.
+            Harmonized.
           </span>
         </h1>
         
