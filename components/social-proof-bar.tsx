@@ -25,7 +25,7 @@ export function SocialProofBar() {
             {[...logos, ...logos].map((logo, index) => (
               <div
                 key={index}
-                className="flex h-14 min-w-[140px] items-center justify-center rounded-lg bg-white/90 px-4"
+                className="flex h-14 min-w-[140px] items-center justify-center rounded-lg bg-white px-4"
               >
                 <img
                   src={logo.src}
