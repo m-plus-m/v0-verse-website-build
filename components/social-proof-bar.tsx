@@ -7,7 +7,7 @@ export function SocialProofBar() {
     { src: "https://telmarhelixa.com/hubfs/collab%20logo.png", alt: "Collab" },
     { src: "https://telmarhelixa.com/hubfs/OMG.jpg", alt: "OMG" },
     { src: "https://telmarhelixa.com/hubfs/ITV.jpg", alt: "ITV" },
-    { src: "https://telmarhelixa.com/hubfs/%C6%B5avemaker.jpg", alt: "Wavemaker" },
+    { src: "https://cdn.cookielaw.org/logos/64853de7-0f2c-4b42-b99c-a04da5e8e2de/2d50c8ed-7aa7-4013-88ef-8f468fb07d80/030caa30-1171-4a0b-92a3-fef772aec019/WM_Logo_RGB_(2).png", alt: "Wavemaker" },
     { src: "https://telmarhelixa.com/hubfs/rauxa%20logo.png", alt: "Rauxa" },
     { src: "https://telmarhelixa.com/hubfs/logo-testimonial.jpg", alt: "Partner" },
     { src: "https://telmarhelixa.com/hubfs/vm.jpg", alt: "VM" },
@@ -25,12 +25,12 @@ export function SocialProofBar() {
             {[...logos, ...logos].map((logo, index) => (
               <div
                 key={index}
-                className="flex h-14 min-w-[140px] items-center justify-center rounded-lg bg-white px-4"
+                className="flex h-20 min-w-[180px] items-center justify-center rounded-lg bg-white px-6"
               >
                 <img
                   src={logo.src}
                   alt={logo.alt}
-                  className="h-10 w-auto max-w-[120px] object-contain"
+                  className="h-14 w-auto max-w-[160px] object-contain"
                 />
               </div>
             ))}
