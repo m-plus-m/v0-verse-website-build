@@ -31,12 +31,12 @@ export function SocialProofBar() {
             {[...logos, ...logos].map((logo, index) => (
               <div
                 key={index}
-                className="flex h-16 min-w-[160px] items-center justify-center px-4"
+                className="flex h-20 min-w-[180px] items-center justify-center rounded-lg bg-white px-6"
               >
                 <img
                   src={logo.src}
                   alt={logo.alt}
-                  className="h-12 w-auto max-w-[160px] object-contain opacity-90 hover:opacity-100 transition-opacity"
+                  className="h-14 w-auto max-w-[160px] object-contain"
                 />
               </div>
             ))}
@@ -54,7 +54,7 @@ export function SocialProofBar() {
           }
         }
         .animate-scroll {
-          animation: scroll 40s linear infinite;
+          animation: scroll 25s linear infinite;
         }
       `}</style>
     </section>
