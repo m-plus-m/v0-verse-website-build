@@ -20,6 +20,13 @@ export function HeroSection() {
           </span>
         </h1>
         
+        {/* Subtle divider line */}
+        <div className="mx-auto mt-8 h-px w-24 bg-gradient-to-r from-transparent via-foreground/30 to-transparent" />
+        
+        <div className="mt-8">
+          <BrandReveal />
+        </div>
+        
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <Button size="lg" className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] text-white hover:opacity-90 gap-2 px-8 border-0">
             Book a Demo
@@ -28,10 +35,6 @@ export function HeroSection() {
           <Button size="lg" variant="outline" className="border-accent/60 text-foreground hover:bg-accent/10 hover:border-accent">
             Get Early Access
           </Button>
-        </div>
-        
-        <div className="mt-6 sm:mt-8">
-          <BrandReveal />
         </div>
       </div>
     </section>
