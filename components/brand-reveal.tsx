@@ -38,8 +38,8 @@ export function BrandReveal() {
     <div className="mb-8 flex items-center justify-center">
       <div 
         className={`
-          relative flex items-baseline justify-center gap-3 font-sans text-3xl font-extrabold lowercase tracking-tight
-          sm:text-4xl lg:text-5xl
+          relative flex items-baseline justify-center gap-2 font-sans text-xl font-extrabold lowercase tracking-tight
+          sm:text-2xl lg:text-3xl
           transition-all duration-500
           ${isComplete ? 'scale-105' : ''}
         `}
