@@ -15,6 +15,8 @@ export function HeroSection() {
       <div className="relative z-10 mx-auto max-w-5xl px-6 text-center">
         <BrandReveal />
         
+        <div className="mt-12 sm:mt-16 lg:mt-20" />
+        
         <h1 className="text-balance text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl font-[family-name:var(--font-display)] lowercase">
           Global Audience Intelligence,{" "}
           <span className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] bg-clip-text text-transparent">
