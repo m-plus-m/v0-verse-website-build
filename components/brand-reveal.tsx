@@ -38,10 +38,10 @@ export function BrandReveal() {
     <div className="mb-8 flex items-center justify-center">
       <div 
         className={`
-          relative flex items-baseline justify-center font-sans text-5xl font-extrabold lowercase tracking-tight
-          sm:text-6xl lg:text-7xl
+          relative flex items-baseline justify-center font-sans text-3xl font-extrabold lowercase tracking-tight
+          sm:text-4xl lg:text-5xl
           transition-all duration-500
-          ${isComplete ? 'scale-110' : ''}
+          ${isComplete ? 'scale-105' : ''}
         `}
       >
         {/* Prefix that fades */}
