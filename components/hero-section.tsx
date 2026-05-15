@@ -12,7 +12,7 @@ export function HeroSection() {
       <div className="absolute bottom-1/3 left-1/4 h-[450px] w-[450px] rounded-full bg-[#C52F86]/20 blur-[100px]" />
       <div className="absolute top-1/2 right-1/3 h-[300px] w-[300px] rounded-full bg-[#2EC4B6]/15 blur-[80px]" />
       
-      <div className="relative z-10 mx-auto max-w-5xl px-6 text-center pt-12 sm:pt-16 lg:pt-20">
+      <div className="relative z-10 mx-auto max-w-5xl px-6 text-center pt-12 sm:pt-16 lg:pt-20 pb-16 sm:pb-20 lg:pb-24">
         <BrandReveal />
         
         {/* Subtle divider line */}
