@@ -70,7 +70,7 @@ function AnimatedStat({ value, label }: { value: string; label: string }) {
 export function StatsBar() {
   const stats = [
     { value: "45+", label: "Data Providers" },
-    { value: "17", label: "Countries" },
+    { value: "66", label: "Countries" },
     { value: "30+", label: "Media Types" },
   ]
 
