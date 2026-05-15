@@ -4,13 +4,12 @@ export function SocialProofBar() {
   // Logos mixed up (not alphabetical)
   const logos = [
     { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ITV_logo_2013.svg-C57uImq5n31hii7v0iEYWJJGy4tf27.png", alt: "ITV" },
+    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Amazon_Studios_logo-83wq0SH6eStgTU7fPDySedCH3UICEX.png", alt: "Amazon Studios" },
     { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Johnson_and_Johnson_Logo.svg-gnVio9PLuwq3un5GyVDbgYrOlWfDgN.png", alt: "Johnson & Johnson" },
     { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WPP_Logo_RGB_Navy-pqDZV7Hs4G7JMLstWrbJngigKH4WS4.png", alt: "WPP" },
     { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Hulu_logo_%282018%29.svg-ROQQydbfyppEyufmj43JXkE4zLJaFS.png", alt: "Hulu" },
     { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Publicis_logo.svg-uHE4SkLcajwaJ0ctWB6gTxrZyLBlmB.png", alt: "Publicis Groupe" },
-    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/CAA.png-FOXAFFVgujjWTiac8o8ZyEusW1zH2y.jpeg", alt: "CAA" },
     { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/FOX_Sports_logo.svg-1AmhmEV95wzN2XpPnaAsReKcUNHpnM.png", alt: "Fox Sports" },
-    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Amazon_Studios_logo-83wq0SH6eStgTU7fPDySedCH3UICEX.png", alt: "Amazon Studios" },
     { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/havas-XnPRiupjm6yU0Isx9inoaoKSibpAnN.png", alt: "Havas" },
     { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Apple-Logo-vdbaxfVO9GFEJE8NP6DqoixZZwWudo.png", alt: "Apple" },
     { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Octagon_New-vIP1E85rkrPDdURYhxEsbROhXppwtH.png", alt: "Octagon" },
