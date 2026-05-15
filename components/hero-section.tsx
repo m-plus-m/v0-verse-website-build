@@ -12,7 +12,7 @@ export function HeroSection() {
       <div className="absolute bottom-1/3 left-1/4 h-[450px] w-[450px] rounded-full bg-[#C52F86]/20 blur-[100px]" />
       <div className="absolute top-1/2 right-1/3 h-[300px] w-[300px] rounded-full bg-[#2EC4B6]/15 blur-[80px]" />
       
-      <div className="relative z-10 mx-auto max-w-5xl px-6 text-center">
+      <div className="relative z-10 mx-auto max-w-5xl px-6 text-center pt-12 sm:pt-16 lg:pt-20">
         <h1 className="text-balance text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl font-[family-name:var(--font-display)] lowercase">
           Global Audience Intelligence,{" "}
           <span className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] bg-clip-text text-transparent">
@@ -30,7 +30,7 @@ export function HeroSection() {
           </Button>
         </div>
         
-        <div className="mt-12 sm:mt-16">
+        <div className="mt-6 sm:mt-8">
           <BrandReveal />
         </div>
       </div>
