@@ -1,21 +1,22 @@
 "use client"
 
 export function SocialProofBar() {
+  // Logos mixed up (not alphabetical)
   const logos = [
-    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dla-sUQ2yaT8FejXIqGp3LrsywiJQJybZ0.png", alt: "DLA Piper" },
-    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hulu-gplWC3WJ20BmnMXdzvqhKVQ2m1tKGC.png", alt: "Hulu" },
-    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/22squared-vlHwZMjYbYNT5IdUBGMzYydeoNPsX5.png", alt: "22squared" },
-    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/apple-UojpnIX693uv7dXNIaPcuYs2JDXxma.png", alt: "Apple" },
-    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/caa-AMXknxzB9rjzLlg0PIGnfrTvcWT82j.png", alt: "CAA" },
-    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/johnson-and-johnson-oN6SWQjWUf4MwfS20Zdr7TR7YIIK4p.png", alt: "Johnson & Johnson" },
-    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ipg-mediabrands-304EDjL7j8zhRMlgsSVxgWaafp0ALx.png", alt: "IPG Mediabrands" },
-    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fox-sports-W1YZna8PzsYdX7wfca7naPlkWDOp7P.png", alt: "Fox Sports" },
-    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fusion92-6FEr490TwBMKHatlJNQZzDbHAzEfhq.png", alt: "Fusion92" },
-    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/amazon-studios-xMvZ2OXxWFAvfmDTVwb7Q7OQZFBc3J.png", alt: "Amazon Studios" },
-    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mediacom-HurLzLOP56kGAN6jLa0tYw9PeXyPdl.png", alt: "Mediacom" },
-    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/itv-WKFM0xDQq1tTfMkYf7NV81N1Sl8c9u.png", alt: "ITV" },
-    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/havas-HXjW1ySx4Rg54P6fQD09sMlGsxrOP7.png", alt: "Havas" },
-    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/amc-networks-DpUnkcj4RDqTugf1WzOvNIzw24X8Ah.png", alt: "AMC Networks" },
+    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ITV_logo_2013.svg-C57uImq5n31hii7v0iEYWJJGy4tf27.png", alt: "ITV" },
+    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Johnson_and_Johnson_Logo.svg-gnVio9PLuwq3un5GyVDbgYrOlWfDgN.png", alt: "Johnson & Johnson" },
+    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WPP_Logo_RGB_Navy-pqDZV7Hs4G7JMLstWrbJngigKH4WS4.png", alt: "WPP" },
+    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Hulu_logo_%282018%29.svg-ROQQydbfyppEyufmj43JXkE4zLJaFS.png", alt: "Hulu" },
+    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Publicis_logo.svg-uHE4SkLcajwaJ0ctWB6gTxrZyLBlmB.png", alt: "Publicis Groupe" },
+    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/CAA.png-FOXAFFVgujjWTiac8o8ZyEusW1zH2y.jpeg", alt: "CAA" },
+    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/FOX_Sports_logo.svg-1AmhmEV95wzN2XpPnaAsReKcUNHpnM.png", alt: "Fox Sports" },
+    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Amazon_Studios_logo-83wq0SH6eStgTU7fPDySedCH3UICEX.png", alt: "Amazon Studios" },
+    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/havas-XnPRiupjm6yU0Isx9inoaoKSibpAnN.png", alt: "Havas" },
+    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Apple-Logo-vdbaxfVO9GFEJE8NP6DqoixZZwWudo.png", alt: "Apple" },
+    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Octagon_New-vIP1E85rkrPDdURYhxEsbROhXppwtH.png", alt: "Octagon" },
+    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/sP4VdbyMFGCo6Yy1bjgVdx43LbROxH0b-j7xuGtNoYfYkbPgWKRFh1GS5sRFXve.png", alt: "Wieden+Kennedy" },
+    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/AMC_Networks_2021_logo-Bk062o9qhxOxzmgK6DBIPGOlHVJNnG.png", alt: "AMC Networks" },
+    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Fusion92-Logo_blue2x-cZA9RRe1kmeUgCCAkNPcwTxqcJQSO7.png", alt: "Fusion92" },
   ]
 
   return (
@@ -26,16 +27,16 @@ export function SocialProofBar() {
         </p>
         
         <div className="relative overflow-hidden">
-          <div className="flex animate-scroll items-center gap-12">
+          <div className="flex animate-scroll items-center gap-16">
             {[...logos, ...logos].map((logo, index) => (
               <div
                 key={index}
-                className="flex h-16 min-w-[140px] items-center justify-center px-4"
+                className="flex h-16 min-w-[160px] items-center justify-center px-4"
               >
                 <img
                   src={logo.src}
                   alt={logo.alt}
-                  className="h-12 w-auto max-w-[140px] object-contain opacity-80 hover:opacity-100 transition-opacity"
+                  className="h-12 w-auto max-w-[160px] object-contain opacity-90 hover:opacity-100 transition-opacity"
                 />
               </div>
             ))}
@@ -53,7 +54,7 @@ export function SocialProofBar() {
           }
         }
         .animate-scroll {
-          animation: scroll 35s linear infinite;
+          animation: scroll 40s linear infinite;
         }
       `}</style>
     </section>
