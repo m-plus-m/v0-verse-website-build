@@ -5,6 +5,7 @@ import { PositioningSection } from "@/components/positioning-section"
 import { SolutionCards } from "@/components/solution-cards"
 import { VerseAIBlock } from "@/components/verse-ai-block"
 import { WhoItsFor } from "@/components/who-its-for"
+import { FeatureCallouts } from "@/components/feature-callouts"
 import { SocialProofBar } from "@/components/social-proof-bar"
 import { CTASection } from "@/components/cta-section"
 import { Footer } from "@/components/footer"
@@ -19,6 +20,7 @@ export default function HomePage() {
       <SolutionCards />
       <VerseAIBlock />
       <WhoItsFor />
+      <FeatureCallouts />
       <SocialProofBar />
       <CTASection />
       <Footer />
