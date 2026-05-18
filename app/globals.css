@@ -20,7 +20,7 @@
   --secondary-foreground: #FFFFFF;
   /* Muted - Darker Charcoal */
   --muted: #3d3f5c;
-  --muted-foreground: #a8aac4;
+  --muted-foreground: #FFFFFF;
   /* Accent - Teal */
   --accent: #2EC4B6;
   --accent-foreground: #FFFFFF;
@@ -60,7 +60,7 @@
   --secondary: #C52F86;
   --secondary-foreground: #FFFFFF;
   --muted: #3d3f5c;
-  --muted-foreground: #a8aac4;
+  --muted-foreground: #FFFFFF;
   --accent: #2EC4B6;
   --accent-foreground: #FFFFFF;
   --mint: #2EC4B6;
