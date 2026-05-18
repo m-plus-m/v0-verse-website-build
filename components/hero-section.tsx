@@ -22,7 +22,7 @@ export function HeroSection() {
       </video>
       
       {/* Dark base overlay */}
-      <div className="absolute inset-0 bg-[#2B2D42]/70" />
+      <div className="absolute inset-0 bg-[#2B2D42]/85" />
       
       {/* Gradient glows - Orange and Magenta */}
       <div className="absolute top-1/4 right-1/4 h-[500px] w-[500px] rounded-full bg-[#F15E24]/25 blur-[120px]" />
