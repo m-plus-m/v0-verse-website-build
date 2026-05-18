@@ -7,6 +7,23 @@ import { BrandReveal } from "@/components/brand-reveal"
 export function HeroSection() {
   return (
     <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden pt-16">
+      {/* Video Background */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+      >
+        <source
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Soundwave-Background-EBdQfRH3qnUR2BdI5I1UCO3TCHg8Zo.mp4"
+          type="video/mp4"
+        />
+      </video>
+      
+      {/* Dark base overlay */}
+      <div className="absolute inset-0 bg-[#2B2D42]/70" />
+      
       {/* Gradient glows - Orange and Magenta */}
       <div className="absolute top-1/4 right-1/4 h-[500px] w-[500px] rounded-full bg-[#F15E24]/25 blur-[120px]" />
       <div className="absolute bottom-1/3 left-1/4 h-[450px] w-[450px] rounded-full bg-[#C52F86]/20 blur-[100px]" />
