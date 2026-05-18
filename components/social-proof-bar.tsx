@@ -1,16 +1,21 @@
 "use client"
 
-import Image from "next/image"
-
 export function SocialProofBar() {
+  // Logos mixed up (not alphabetical)
   const logos = [
-    { src: "https://telmarhelixa.com/hubfs/collab%20logo.png", alt: "Collab" },
-    { src: "https://telmarhelixa.com/hubfs/OMG.jpg", alt: "OMG" },
-    { src: "https://telmarhelixa.com/hubfs/ITV.jpg", alt: "ITV" },
-    { src: "https://cdn.cookielaw.org/logos/64853de7-0f2c-4b42-b99c-a04da5e8e2de/2d50c8ed-7aa7-4013-88ef-8f468fb07d80/030caa30-1171-4a0b-92a3-fef772aec019/WM_Logo_RGB_(2).png", alt: "Wavemaker" },
-    { src: "https://telmarhelixa.com/hubfs/rauxa%20logo.png", alt: "Rauxa" },
-    { src: "https://telmarhelixa.com/hubfs/logo-testimonial.jpg", alt: "Partner" },
-    { src: "https://telmarhelixa.com/hubfs/vm.jpg", alt: "VM" },
+    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ITV_logo_2013.svg-C57uImq5n31hii7v0iEYWJJGy4tf27.png", alt: "ITV" },
+    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Amazon_Studios_logo-83wq0SH6eStgTU7fPDySedCH3UICEX.png", alt: "Amazon Studios" },
+    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Johnson_and_Johnson_Logo.svg-gnVio9PLuwq3un5GyVDbgYrOlWfDgN.png", alt: "Johnson & Johnson" },
+    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WPP_Logo_RGB_Navy-pqDZV7Hs4G7JMLstWrbJngigKH4WS4.png", alt: "WPP" },
+    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Hulu_logo_%282018%29.svg-ROQQydbfyppEyufmj43JXkE4zLJaFS.png", alt: "Hulu" },
+    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Publicis_logo.svg-uHE4SkLcajwaJ0ctWB6gTxrZyLBlmB.png", alt: "Publicis Groupe" },
+    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/FOX_Sports_logo.svg-1AmhmEV95wzN2XpPnaAsReKcUNHpnM.png", alt: "Fox Sports" },
+    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/havas-XnPRiupjm6yU0Isx9inoaoKSibpAnN.png", alt: "Havas" },
+    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Apple-Logo-vdbaxfVO9GFEJE8NP6DqoixZZwWudo.png", alt: "Apple" },
+    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Octagon_New-vIP1E85rkrPDdURYhxEsbROhXppwtH.png", alt: "Octagon" },
+    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/sP4VdbyMFGCo6Yy1bjgVdx43LbROxH0b-j7xuGtNoYfYkbPgWKRFh1GS5sRFXve.png", alt: "Wieden+Kennedy" },
+    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/AMC_Networks_2021_logo-Bk062o9qhxOxzmgK6DBIPGOlHVJNnG.png", alt: "AMC Networks" },
+    { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Fusion92-Logo_blue2x-cZA9RRe1kmeUgCCAkNPcwTxqcJQSO7.png", alt: "Fusion92" },
   ]
 
   return (
