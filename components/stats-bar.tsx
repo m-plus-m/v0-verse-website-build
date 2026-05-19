@@ -69,9 +69,9 @@ function AnimatedStat({ value, label }: { value: string; label: string }) {
 
 export function StatsBar() {
   const stats = [
-    { value: "45+", label: "Data Providers" },
-    { value: "66", label: "Countries" },
-    { value: "30+", label: "Media Types" },
+    { value: "50+", label: "Data Providers" },
+    { value: "46", label: "Countries" },
+    { value: "70+", label: "Media Types" },
   ]
 
   return (
