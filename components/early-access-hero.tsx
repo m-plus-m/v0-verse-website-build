@@ -2,7 +2,7 @@
 
 export function EarlyAccessHero() {
   return (
-    <section className="relative flex items-center justify-center overflow-hidden pt-16 pb-12">
+    <section className="relative min-h-[40vh] flex items-center justify-center overflow-hidden pt-16">
       {/* Video Background */}
       <video
         autoPlay
