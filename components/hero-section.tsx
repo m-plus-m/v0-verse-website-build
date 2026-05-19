@@ -50,9 +50,11 @@ export function HeroSection() {
               <ArrowRight className="h-4 w-4" />
             </Button>
           </Link>
-          <Button size="lg" variant="outline" className="border-accent/60 text-foreground hover:bg-accent/10 hover:border-accent">
-            Get Early Access
-          </Button>
+          <Link href="/early-access">
+            <Button size="lg" variant="outline" className="border-accent/60 text-foreground hover:bg-accent/10 hover:border-accent">
+              Get Early Access
+            </Button>
+          </Link>
         </div>
       </div>
     </section>
