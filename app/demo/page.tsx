@@ -3,7 +3,6 @@ import { Header } from "@/components/header"
 import { DemoHero } from "@/components/demo-hero"
 import { SocialProofBar } from "@/components/social-proof-bar"
 import { DemoForm } from "@/components/demo-form"
-import { TestimonialsSection } from "@/components/testimonials-section"
 import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
@@ -20,9 +19,8 @@ export default function DemoPage() {
     <main className="min-h-screen bg-background text-foreground">
       <Header />
       <DemoHero />
-      <SocialProofBar />
       <DemoForm />
-      <TestimonialsSection />
+      <SocialProofBar />
       <Footer />
     </main>
   )
