@@ -26,16 +26,16 @@ export function SocialProofBar() {
         </p>
         
         <div className="relative overflow-hidden">
-          <div className="flex animate-scroll items-center gap-16">
+          <div className="flex animate-scroll md:animate-scroll-desktop items-center gap-6 md:gap-16">
             {[...logos, ...logos].map((logo, index) => (
               <div
                 key={index}
-                className="flex h-20 min-w-[180px] items-center justify-center rounded-lg bg-white px-6"
+                className="flex h-12 md:h-20 min-w-[100px] md:min-w-[180px] items-center justify-center rounded-lg bg-white px-3 md:px-6"
               >
                 <img
                   src={logo.src}
                   alt={logo.alt}
-                  className="h-14 w-auto max-w-[160px] object-contain"
+                  className="h-8 md:h-14 w-auto max-w-[80px] md:max-w-[160px] object-contain"
                 />
               </div>
             ))}
@@ -53,7 +53,15 @@ export function SocialProofBar() {
           }
         }
         .animate-scroll {
-          animation: scroll 25s linear infinite;
+          animation: scroll 12s linear infinite;
+        }
+        .md\\:animate-scroll-desktop {
+          animation: scroll 12s linear infinite;
+        }
+        @media (min-width: 768px) {
+          .md\\:animate-scroll-desktop {
+            animation: scroll 25s linear infinite;
+          }
         }
       `}</style>
     </section>
