@@ -23,7 +23,7 @@ export function Footer() {
               <Linkedin className="h-4 w-4" />
               <span className="sr-only">LinkedIn</span>
             </Link>
-            <Link href="#" className="hover:text-accent transition-colors">
+            <Link href="https://telmarhelixa.com/privacy-policy" className="hover:text-accent transition-colors" target="_blank" rel="noopener noreferrer">
               Privacy Policy
             </Link>
             <Link href="#" className="hover:text-accent transition-colors">
