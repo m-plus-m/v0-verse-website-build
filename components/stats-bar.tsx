@@ -71,7 +71,7 @@ export function StatsBar() {
   const stats = [
     { value: "50+", label: "Data Providers" },
     { value: "46", label: "Countries" },
-    { value: "50+", label: "Media Types" },
+    { value: "70+", label: "Media Types" },
   ]
 
   return (
