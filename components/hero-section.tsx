@@ -16,13 +16,13 @@ export function HeroSection() {
         className="absolute inset-0 w-full h-full object-cover"
       >
         <source
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Soundwave-Background-EBdQfRH3qnUR2BdI5I1UCO3TCHg8Zo.mp4"
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/15682102_1280_720_30fps-A6Ovhq3xP1RFIdF5FV6l7aoXZ2F3KO.mp4"
           type="video/mp4"
         />
       </video>
       
       {/* Dark base overlay */}
-      <div className="absolute inset-0 bg-[#2B2D42]/85" />
+      <div className="absolute inset-0 bg-[#2B2D42]/90" />
       
       {/* Gradient glows - Orange and Magenta */}
       <div className="absolute top-1/4 right-1/4 h-[500px] w-[500px] rounded-full bg-[#F15E24]/25 blur-[120px]" />
