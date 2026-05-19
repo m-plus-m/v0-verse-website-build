@@ -4,7 +4,7 @@ const solutions = [
   {
     icon: Search,
     title: "Discover",
-    description: "Find audiences from behavioral signals — social, search, browsing — without depending on a single platform's data.",
+    description: "Find audiences from behavioral signals — social, search, browsing — without being tied to any one data source.",
   },
   {
     icon: Users,
