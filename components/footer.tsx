@@ -16,9 +16,11 @@ export function Footer() {
           
           <div className="flex items-center gap-6 text-sm text-muted-foreground">
             <Link 
-              href="#" 
+              href="https://www.linkedin.com/company/telmargroupinc/" 
               className="hover:text-accent transition-colors inline-flex items-center gap-1.5"
               aria-label="LinkedIn"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <Linkedin className="h-4 w-4" />
               <span className="sr-only">LinkedIn</span>
