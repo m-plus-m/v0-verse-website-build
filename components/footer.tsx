@@ -28,7 +28,7 @@ export function Footer() {
             <Link href="https://telmarhelixa.com/privacy-policy" className="hover:text-accent transition-colors" target="_blank" rel="noopener noreferrer">
               Privacy Policy
             </Link>
-            <Link href="#" className="hover:text-accent transition-colors">
+            <Link href="https://telmarhelixa.com/terms-of-service" className="hover:text-accent transition-colors" target="_blank" rel="noopener noreferrer">
               Terms
             </Link>
           </div>
