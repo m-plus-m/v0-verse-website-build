@@ -1,5 +1,6 @@
 "use client"
 
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 import { BrandReveal } from "@/components/brand-reveal"
@@ -43,10 +44,12 @@ export function HeroSection() {
         </h1>
         
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-          <Button size="lg" className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] text-white hover:opacity-90 gap-2 px-8 border-0">
-            Book a Demo
-            <ArrowRight className="h-4 w-4" />
-          </Button>
+          <Link href="/demo">
+            <Button size="lg" className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] text-white hover:opacity-90 gap-2 px-8 border-0">
+              Book a Demo
+              <ArrowRight className="h-4 w-4" />
+            </Button>
+          </Link>
           <Button size="lg" variant="outline" className="border-accent/60 text-foreground hover:bg-accent/10 hover:border-accent">
             Get Early Access
           </Button>
