@@ -12,11 +12,11 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: 'Verse | From Brief to Plan in One Workflow',
-  description: 'AI-powered audience intelligence that connects research, profiling and media planning. Move from brief to plan across 45+ data providers, 17 countries and 30+ media types.',
+  title: 'Verse | Global Audience Intelligence, Harmonized',
+  description: 'AI-powered audience intelligence that connects research, profiling and media planning. Move from brief to plan across 50+ data providers, 46 countries and 70+ media types.',
   openGraph: {
-    title: 'Verse — From Brief to Plan in One Workflow',
-    description: 'One platform for audience intelligence, profiling and media planning. Book a demo.',
+    title: 'Verse — Global Audience Intelligence, Harmonized',
+    description: 'One platform for audience intelligence, audience segmentation, profiling and media planning. Book a demo.',
   },
   generator: 'v0.app',
   icons: {
