@@ -7,7 +7,7 @@ export function PositioningSection() {
           <span className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] bg-clip-text text-transparent">
             Three agents.
           </span>{" "}
-          Zero handoffs.
+          Zero friction.
         </h2>
       </div>
     </section>
