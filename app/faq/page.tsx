@@ -27,7 +27,7 @@ const faqSections = [
       },
       {
         q: "What data sources does Verse connect to?",
-        a: "Verse connects to 50+ data providers across 46 countries, including MRI Simmons, GWI, Kantar, Comscore, YouGov and many others. The Discover engine also draws from proprietary data built on social signals, search behavior, browsing activity and app usage. TelmarHelixa's Data Hub processes over 2,500 individual datasets per year across 70+ media types."
+        a: "Verse connects to 50+ data providers across 46 countries, including MRI Simmons, GWI, Kantar, Comscore, YouGov and many others. The Discover engine also draws from proprietary data built on social signals, search behavior, browsing activity and app usage. TelmarHelixa's <a href=\"https://telmarhelixa.com/datahub\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-accent hover:underline\">Data Hub</a> processes over 2,500 individual datasets per year across 70+ media types."
       },
     ]
   },
@@ -174,7 +174,7 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
         />
       </button>
       <div className={`overflow-hidden transition-all duration-200 ${isOpen ? 'max-h-[1000px] pb-5' : 'max-h-0'}`}>
-        <p className="text-muted-foreground leading-relaxed">{answer}</p>
+        <p className="text-muted-foreground leading-relaxed" dangerouslySetInnerHTML={{ __html: answer }} />
       </div>
     </div>
   )
