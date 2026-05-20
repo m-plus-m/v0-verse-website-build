@@ -27,7 +27,7 @@ const faqSections = [
       },
       {
         q: "What data sources does Verse connect to?",
-        a: "Verse connects to 50+ data providers across 46 countries, including MRI Simmons, GWI, Kantar, Comscore, YouGov and many others. The Discover engine also draws from proprietary data built on social signals, search behavior, browsing activity and app usage. TelmarHelixa's Data Hub processes over 2,500 individual datasets per year across 70+ media types."
+        a: "Verse connects to 50+ data providers across 46 countries, including MRI Simmons, GWI, Kantar, Comscore, YouGov and many others. The Discover engine also draws from proprietary data built on social signals, search behavior, browsing activity and app usage. TelmarHelixa's <a href=\"https://telmarhelixa.com/datahub\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-accent hover:underline\">Data Hub</a> processes over 2,500 individual datasets per year across 70+ media types."
       },
     ]
   },
@@ -159,13 +159,11 @@ const faqSections = [
   },
 ]
 
-function FAQItem({ question, answer }: { question: string; answer: string }) {
-  const [isOpen, setIsOpen] = useState(false)
-  
+function FAQItem({ question, answer, isOpen, onToggle }: { question: string; answer: string; isOpen: boolean; onToggle: () => void }) {
   return (
     <div className="border-b border-border/40">
       <button
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={onToggle}
         className="flex w-full items-center justify-between py-5 text-left"
       >
         <span className="text-lg font-medium text-foreground pr-4">{question}</span>
@@ -174,7 +172,57 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
         />
       </button>
       <div className={`overflow-hidden transition-all duration-200 ${isOpen ? 'max-h-[1000px] pb-5' : 'max-h-0'}`}>
-        <p className="text-muted-foreground leading-relaxed">{answer}</p>
+        <p className="text-muted-foreground leading-relaxed" dangerouslySetInnerHTML={{ __html: answer }} />
+      </div>
+    </div>
+  )
+}
+
+function FAQSection({ section, sectionIndex }: { section: typeof faqSections[0]; sectionIndex: number }) {
+  const [openItems, setOpenItems] = useState<Set<number>>(new Set())
+  const allOpen = openItems.size === section.questions.length
+  
+  const toggleItem = (index: number) => {
+    const newOpenItems = new Set(openItems)
+    if (newOpenItems.has(index)) {
+      newOpenItems.delete(index)
+    } else {
+      newOpenItems.add(index)
+    }
+    setOpenItems(newOpenItems)
+  }
+  
+  const toggleAll = () => {
+    if (allOpen) {
+      setOpenItems(new Set())
+    } else {
+      setOpenItems(new Set(section.questions.map((_, i) => i)))
+    }
+  }
+  
+  return (
+    <div className="mb-16 last:mb-0">
+      <div className="flex items-center justify-between mb-6 pb-2 border-b border-accent/40">
+        <h2 className="text-2xl font-bold text-foreground">
+          {section.title}
+        </h2>
+        <button 
+          onClick={toggleAll}
+          className="text-sm text-muted-foreground hover:text-accent transition-colors"
+        >
+          {allOpen ? 'Collapse All' : 'Expand All'}
+        </button>
+      </div>
+      <div>
+        {section.questions.map((item, itemIndex) => (
+          <FAQItem 
+            key={itemIndex} 
+            question={item.q} 
+            answer={item.a}
+            isOpen={openItems.has(itemIndex)}
+            onToggle={() => toggleItem(itemIndex)}
+          />
+        ))}
       </div>
     </div>
   )
@@ -219,16 +267,7 @@ export default function FAQPage() {
       <section className="py-20">
         <div className="mx-auto max-w-3xl px-6">
           {faqSections.map((section, sectionIndex) => (
-            <div key={sectionIndex} className="mb-16 last:mb-0">
-              <h2 className="text-2xl font-bold text-foreground mb-6 pb-2 border-b border-accent/40">
-                {section.title}
-              </h2>
-              <div>
-                {section.questions.map((item, itemIndex) => (
-                  <FAQItem key={itemIndex} question={item.q} answer={item.a} />
-                ))}
-              </div>
-            </div>
+            <FAQSection key={sectionIndex} section={section} sectionIndex={sectionIndex} />
           ))}
         </div>
       </section>
