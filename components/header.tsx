@@ -25,6 +25,11 @@ export function Header() {
           <Button variant="ghost" size="sm" className="hidden text-muted-foreground hover:text-foreground sm:inline-flex">
             About
           </Button>
+          <Link href="/faq">
+            <Button variant="ghost" size="sm" className="hidden text-muted-foreground hover:text-foreground sm:inline-flex">
+              FAQ
+            </Button>
+          </Link>
           <Link href="/early-access">
             <Button variant="outline" size="sm" className="border-accent/60 text-foreground hover:bg-accent/10 hover:border-accent">
               Get Early Access

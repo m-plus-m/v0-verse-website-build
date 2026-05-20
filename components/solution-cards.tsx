@@ -14,7 +14,7 @@ const solutions = [
   {
     icon: LayoutGrid,
     title: "Plan",
-    description: "Move segments directly into media plans across 70+ media types across 46 countries. No exporting. No rebuilding.",
+    description: "Move segments directly into media plans across 70+ media types and 46 countries. No exporting. No rebuilding.",
   },
 ]
 
