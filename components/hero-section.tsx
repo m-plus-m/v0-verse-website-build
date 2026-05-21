@@ -43,6 +43,10 @@ export function HeroSection() {
           </span>
         </h1>
         
+        <p className="mt-6 text-lg text-muted-foreground">
+          Audience insight, cross-media planning and activation in one continuous workflow.
+        </p>
+        
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <Link href="/demo">
             <Button size="lg" className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] text-white hover:opacity-90 gap-2 px-8 border-0">
