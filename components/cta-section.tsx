@@ -32,7 +32,7 @@ export function CTASection() {
       
       <div className="relative z-10 mx-auto max-w-3xl px-6 py-24 text-center">
         <h2 className="text-balance text-3xl font-bold tracking-tight sm:text-4xl text-foreground">
-          From insight to action.{" "}
+          From insights to activation.{" "}
           <span className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] bg-clip-text text-transparent">
             In perfect harmony.
           </span>
