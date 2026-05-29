@@ -162,14 +162,14 @@ export default function ProductsPage() {
       </section>
       
       {/* Connecting Line / Pull Quote */}
-      <section className="border-t border-border/40">
-        <div className="mx-auto max-w-4xl px-6 py-20 text-center">
-          <p className="text-2xl md:text-3xl font-medium text-foreground leading-relaxed">
-            The audience your strategist builds is the exact audience your planner optimizes against.{" "}
+      <section className="py-16">
+        <div className="mx-auto max-w-5xl px-6 text-center">
+          <h2 className="text-balance text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl text-foreground">
+            The audience your strategist builds is the audience your planner optimizes against.{" "}
             <span className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] bg-clip-text text-transparent">
               No lossy handoffs between tools.
             </span>
-          </p>
+          </h2>
         </div>
       </section>
       
