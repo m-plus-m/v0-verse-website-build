@@ -22,9 +22,11 @@ export function Header() {
         </div>
 
         <div className="flex items-center gap-3">
-          <Button variant="ghost" size="sm" className="hidden text-muted-foreground hover:text-foreground sm:inline-flex">
-            About
-          </Button>
+          <Link href="/products">
+            <Button variant="ghost" size="sm" className="hidden text-muted-foreground hover:text-foreground sm:inline-flex">
+              Products
+            </Button>
+          </Link>
           <Link href="/faq">
             <Button variant="ghost" size="sm" className="hidden text-muted-foreground hover:text-foreground sm:inline-flex">
               FAQ
