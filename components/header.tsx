@@ -81,6 +81,9 @@ export function Header() {
               Book a Demo
             </Button>
           </Link>
+          <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-foreground">
+            Login
+          </Button>
         </div>
       </div>
     </header>
