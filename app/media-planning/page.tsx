@@ -6,11 +6,11 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight, Users, Tv, Database, Globe, BarChart3, Leaf, Gauge, Layers } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "PlanVerse | Cross-Channel Media Planning Across 70+ Media Types",
-  description: "PlanVerse uses the segments your team already built — so the audience you researched is the audience you reach. 70+ media types in 46 countries.",
+  title: "Plan | Cross-Channel Media Planning Across 70+ Media Types",
+  description: "Plan uses the segments your team already built — so the audience you researched is the audience you reach. 70+ media types in 46 countries.",
   openGraph: {
-    title: "PlanVerse | Cross-Channel Media Planning Across 70+ Media Types",
-    description: "PlanVerse uses the segments your team already built — so the audience you researched is the audience you reach. 70+ media types in 46 countries.",
+    title: "Plan | Cross-Channel Media Planning Across 70+ Media Types",
+    description: "Plan uses the segments your team already built — so the audience you researched is the audience you reach. 70+ media types in 46 countries.",
   },
 }
 
@@ -101,7 +101,7 @@ export default function MediaPlanningPage() {
             </span>
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-3xl mx-auto">
-            Most planning tools make you rebuild your audience from scratch. PlanVerse uses the segments your team already built — so the audience you researched is the audience you reach.
+            Most planning tools make you rebuild your audience from scratch. Plan uses the segments your team already built — so the audience you researched is the audience you reach.
           </p>
         </div>
       </section>
@@ -110,7 +110,7 @@ export default function MediaPlanningPage() {
       <section className="border-t border-border/40">
         <div className="mx-auto max-w-6xl px-6 py-20">
           <h2 className="text-3xl font-bold text-foreground mb-12 text-center">
-            What Makes PlanVerse{" "}
+            What Makes Plan{" "}
             <span className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] bg-clip-text text-transparent">
               Different
             </span>
@@ -148,7 +148,7 @@ export default function MediaPlanningPage() {
           </h2>
           <div className="rounded-2xl border border-border/40 bg-card/50 p-6">
             <p className="text-muted-foreground leading-relaxed">
-              Most planning tools start from zero. PlanVerse is the only one that receives audience segments directly from an integrated research and profiling workflow. The nuanced audience your strategist built is the exact audience your planner optimizes against — across 70+ media types in 46 countries.
+              Most planning tools start from zero. Plan is the only one that receives audience segments directly from an integrated research and profiling workflow. The nuanced audience your strategist built is the exact audience your planner optimizes against — across 70+ media types in 46 countries.
             </p>
           </div>
         </div>
@@ -183,9 +183,9 @@ export default function MediaPlanningPage() {
       <section className="border-t border-border/40">
         <div className="mx-auto max-w-4xl px-6 py-16 text-center">
           <p className="text-xl text-muted-foreground leading-relaxed">
-            PlanVerse completes the workflow. Audiences from{" "}
-            <Link href="/audience-intelligence" className="text-[#F15E24] hover:underline">DiscoverVerse</Link> and{" "}
-            <Link href="/audience-profiling" className="text-[#F15E24] hover:underline">ExploreVerse</Link> arrive ready to plan against — no translation, no rebuilt segments.
+            Plan completes the workflow. Audiences from{" "}
+            <Link href="/audience-intelligence" className="text-[#F15E24] hover:underline">Discover</Link> and{" "}
+            <Link href="/audience-profiling" className="text-[#F15E24] hover:underline">Explore</Link> arrive ready to plan against — no translation, no rebuilt segments.
           </p>
         </div>
       </section>
