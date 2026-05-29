@@ -11,7 +11,7 @@ export function Footer() {
               <span className="text-white text-[10px] font-bold">V</span>
             </div>
             <span className="text-sm font-medium text-foreground">Verse</span>
-            <span className="text-sm text-muted-foreground">| Powered by TelmarHelixa</span>
+            <span className="text-sm text-muted-foreground">| Powered by <a href="https://telmarhelixa.com" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">TelmarHelixa</a></span>
           </div>
           
           <div className="flex items-center gap-6 text-sm text-muted-foreground">
