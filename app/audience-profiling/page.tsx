@@ -2,6 +2,7 @@ import { Metadata } from "next"
 import Link from "next/link"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
+import { ProductBreadcrumb } from "@/components/product-breadcrumb"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Layers, LineChart, Presentation, Database, Upload, Target, BarChart3, PieChart } from "lucide-react"
 
@@ -69,9 +70,10 @@ export default function AudienceProfilingPage() {
   return (
     <main className="min-h-screen bg-background text-foreground">
       <Header />
+      <ProductBreadcrumb productName="Explore" categoryName="Audience Profiling" />
       
       {/* Hero Section */}
-      <section className="relative min-h-[50vh] flex items-center justify-center overflow-hidden pt-16">
+      <section className="relative min-h-[50vh] flex items-center justify-center overflow-hidden pt-28">
         {/* Video Background */}
         <video
           autoPlay
