@@ -1,0 +1,213 @@
+import { Metadata } from "next"
+import Link from "next/link"
+import { Header } from "@/components/header"
+import { Footer } from "@/components/footer"
+import { Button } from "@/components/ui/button"
+import { ArrowRight, Users, Tv, Database, Globe, BarChart3, Leaf, Gauge, Layers } from "lucide-react"
+
+export const metadata: Metadata = {
+  title: "PlanVerse | Cross-Channel Media Planning Across 70+ Media Types",
+  description: "PlanVerse uses the segments your team already built — so the audience you researched is the audience you reach. 70+ media types in 46 countries.",
+  openGraph: {
+    title: "PlanVerse | Cross-Channel Media Planning Across 70+ Media Types",
+    description: "PlanVerse uses the segments your team already built — so the audience you researched is the audience you reach. 70+ media types in 46 countries.",
+  },
+}
+
+const differentiators = [
+  {
+    title: "Audience fidelity from insight to plan",
+    description: "Custom audiences keep their full definition from research through planning. No approximation, no manual rebuild.",
+    icon: Users,
+  },
+  {
+    title: "One currency across every channel",
+    description: "TV, digital, OOH, audio, print and emerging channels in a single reach and frequency measurement.",
+    icon: Tv,
+  },
+  {
+    title: "Data-neutral",
+    description: "Works with any data source. Design campaigns around your strategy, not your vendor's limitations.",
+    icon: Database,
+  },
+]
+
+const capabilities = [
+  {
+    title: "Cross-media optimization",
+    description: "TV, digital, OOH, audio, print and emerging channels. Reach, frequency, impressions and GRPs in one view.",
+    icon: Tv,
+  },
+  {
+    title: "70+ media types",
+    description: "More channel coverage than any other planning platform.",
+    icon: Layers,
+  },
+  {
+    title: "46 countries",
+    description: "Local data, global methodology. One platform for regional and multi-market planning.",
+    icon: Globe,
+  },
+  {
+    title: "Scenario modeling",
+    description: "Test budget allocations and channel mixes before committing spend.",
+    icon: BarChart3,
+  },
+  {
+    title: "ESG integration",
+    description: "The only planning platform with ESG scores built into channel selection.",
+    icon: Leaf,
+  },
+  {
+    title: "Single reach currency",
+    description: "One unified measurement across every data source. No more arguing about whose numbers are right.",
+    icon: Gauge,
+  },
+]
+
+export default function MediaPlanningPage() {
+  return (
+    <main className="min-h-screen bg-background text-foreground">
+      <Header />
+      
+      {/* Hero Section */}
+      <section className="relative min-h-[50vh] flex items-center justify-center overflow-hidden pt-16">
+        {/* Video Background */}
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          <source
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/15682102_1280_720_30fps-A6Ovhq3xP1RFIdF5FV6l7aoXZ2F3KO.mp4"
+            type="video/mp4"
+          />
+        </video>
+        
+        {/* Dark base overlay */}
+        <div className="absolute inset-0 bg-[#2B2D42]/90" />
+        
+        {/* Gradient glows */}
+        <div className="absolute top-1/4 right-1/4 h-[400px] w-[400px] rounded-full bg-[#F15E24]/20 blur-[100px]" />
+        <div className="absolute bottom-1/3 left-1/4 h-[350px] w-[350px] rounded-full bg-[#C52F86]/15 blur-[80px]" />
+        
+        <div className="relative z-10 mx-auto max-w-4xl px-6 text-center py-20">
+          <h1 className="text-balance text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl font-[family-name:var(--font-display)] lowercase">
+            plan across every channel{" "}
+            <span className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] bg-clip-text text-transparent">
+              with one audience.
+            </span>
+          </h1>
+          <p className="mt-6 text-lg text-muted-foreground max-w-3xl mx-auto">
+            Most planning tools make you rebuild your audience from scratch. PlanVerse uses the segments your team already built — so the audience you researched is the audience you reach.
+          </p>
+        </div>
+      </section>
+      
+      {/* What Makes Different Section */}
+      <section className="border-t border-border/40">
+        <div className="mx-auto max-w-6xl px-6 py-20">
+          <h2 className="text-3xl font-bold text-foreground mb-12 text-center">
+            What Makes PlanVerse{" "}
+            <span className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] bg-clip-text text-transparent">
+              Different
+            </span>
+          </h2>
+          <div className="grid gap-8 md:grid-cols-3">
+            {differentiators.map((item) => (
+              <div
+                key={item.title}
+                className="group relative rounded-2xl border border-border/40 bg-card/50 p-8 transition-all hover:border-[#F15E24]/40"
+              >
+                <div className="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-[#F15E24] to-[#C52F86]">
+                  <item.icon className="h-6 w-6 text-white" />
+                </div>
+                <h3 className="mb-3 text-xl font-semibold text-foreground">{item.title}</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  {item.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      
+      {/* Already Using Section */}
+      <section className="relative py-16 overflow-hidden">
+        {/* Gradient background glows */}
+        <div className="absolute inset-0 overflow-hidden">
+          <div className="absolute top-1/2 left-1/3 -translate-x-1/2 -translate-y-1/2 h-[400px] w-[400px] rounded-full bg-[#F15E24]/15 blur-[100px]" />
+          <div className="absolute top-1/2 right-1/3 -translate-x-1/2 -translate-y-1/2 h-[350px] w-[350px] rounded-full bg-[#C52F86]/15 blur-[80px]" />
+        </div>
+        
+        <div className="relative z-10 mx-auto max-w-4xl px-6">
+          <h2 className="text-3xl font-bold text-foreground mb-8">
+            Already Using Other Planning Tools?
+          </h2>
+          <div className="rounded-2xl border border-border/40 bg-card/50 p-6">
+            <p className="text-muted-foreground leading-relaxed">
+              Most planning tools start from zero. PlanVerse is the only one that receives audience segments directly from an integrated research and profiling workflow. The nuanced audience your strategist built is the exact audience your planner optimizes against — across 70+ media types in 46 countries.
+            </p>
+          </div>
+        </div>
+      </section>
+      
+      {/* Capabilities Section */}
+      <section className="border-t border-border/40">
+        <div className="mx-auto max-w-6xl px-6 py-20">
+          <h2 className="text-3xl font-bold text-foreground mb-12 text-center">
+            Capabilities
+          </h2>
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {capabilities.map((item) => (
+              <div
+                key={item.title}
+                className="group relative rounded-xl border border-border/40 bg-card/50 p-6 transition-all hover:border-[#F15E24]/40"
+              >
+                <div className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br from-[#F15E24] to-[#C52F86]">
+                  <item.icon className="h-5 w-5 text-white" />
+                </div>
+                <h3 className="mb-2 text-lg font-semibold text-foreground">{item.title}</h3>
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  {item.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      
+      {/* Flow Section */}
+      <section className="border-t border-border/40">
+        <div className="mx-auto max-w-4xl px-6 py-16 text-center">
+          <p className="text-xl text-muted-foreground leading-relaxed">
+            PlanVerse completes the workflow. Audiences from{" "}
+            <Link href="/audience-intelligence" className="text-[#F15E24] hover:underline">DiscoverVerse</Link> and{" "}
+            <Link href="/audience-profiling" className="text-[#F15E24] hover:underline">ExploreVerse</Link> arrive ready to plan against — no translation, no rebuilt segments.
+          </p>
+        </div>
+      </section>
+      
+      {/* CTA Section */}
+      <section className="border-t border-border/40 bg-gradient-to-b from-background to-[#2B2D42]/30">
+        <div className="mx-auto max-w-3xl px-6 py-20 text-center">
+          <h2 className="text-3xl font-bold text-foreground sm:text-4xl">
+            Plan against the audience you actually researched.
+          </h2>
+          <div className="mt-10">
+            <Link href="/demo">
+              <Button size="lg" className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] text-white hover:opacity-90 gap-2 px-8 border-0">
+                Book a Demo
+                <ArrowRight className="h-4 w-4" />
+              </Button>
+            </Link>
+          </div>
+        </div>
+      </section>
+      
+      <Footer />
+    </main>
+  )
+}
