@@ -37,17 +37,17 @@ const workflowSteps = [
 
 const productCards = [
   {
-    name: "DiscoverVerse",
+    name: "Discover",
     description: "Real audiences from real behavior. Social, search, browsing and app signals — fused with gold-standard consumer research. Not AI guesswork.",
     href: "/audience-intelligence",
   },
   {
-    name: "ExploreVerse",
+    name: "Explore",
     description: "50+ data providers in one workspace. Profile, segment and visualize without the tab-switching.",
     href: "/audience-profiling",
   },
   {
-    name: "PlanVerse",
+    name: "Plan",
     description: "Cross-channel media planning across 70+ media types in 46 countries. The audience you researched is the audience you reach.",
     href: "/media-planning",
   },
@@ -151,7 +151,7 @@ export default function ProductsPage() {
                     {product.description}
                   </p>
                   
-                  <div className="mt-6 flex items-center text-[#F15E24] font-medium opacity-0 group-hover:opacity-100 transition-opacity">
+                  <div className="mt-6 flex items-center text-[#F15E24] font-medium">
                     Learn more <ArrowRight className="ml-2 h-4 w-4" />
                   </div>
                 </div>
