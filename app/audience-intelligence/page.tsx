@@ -207,7 +207,7 @@ export default function AudienceIntelligencePage() {
           <p className="text-xl text-muted-foreground leading-relaxed">
             Audiences from Discover flow directly into{" "}
             <Link href="/media-planning" className="text-[#F15E24] hover:underline">Plan</Link> for media planning.{" "}
-            <span className="text-foreground font-semibold">One definition, two engines.</span>
+            <span className="text-foreground font-semibold">The audience you built is the audience you optimize against.</span>
           </p>
         </div>
       </section>
