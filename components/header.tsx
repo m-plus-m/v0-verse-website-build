@@ -20,9 +20,9 @@ export function Header() {
               <span className="text-lg font-semibold tracking-tight text-foreground">verse</span>
             </div>
           </Link>
-          <span className="hidden text-sm text-muted-foreground md:block">
+          <a href="https://telmarhelixa.com" target="_blank" rel="noopener noreferrer" className="hidden text-sm text-muted-foreground hover:text-accent transition-colors md:block">
             by TelmarHelixa
-          </span>
+          </a>
         </div>
 
         <div className="flex items-center gap-3">
