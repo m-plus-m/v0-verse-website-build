@@ -2,6 +2,7 @@ import { Metadata } from "next"
 import Link from "next/link"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
+import { ProductBreadcrumb } from "@/components/product-breadcrumb"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Users, Tv, Database, Globe, BarChart3, Leaf, Gauge, Layers } from "lucide-react"
 
@@ -69,9 +70,10 @@ export default function MediaPlanningPage() {
   return (
     <main className="min-h-screen bg-background text-foreground">
       <Header />
+      <ProductBreadcrumb productName="Plan" categoryName="Media Planning" />
       
       {/* Hero Section */}
-      <section className="relative min-h-[50vh] flex items-center justify-center overflow-hidden pt-16">
+      <section className="relative min-h-[50vh] flex items-center justify-center overflow-hidden pt-28">
         {/* Video Background */}
         <video
           autoPlay
