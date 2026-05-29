@@ -83,13 +83,13 @@ export default function ProductsPage() {
         
         <div className="relative z-10 mx-auto max-w-4xl px-6 text-center py-20">
           <h1 className="text-balance text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl font-[family-name:var(--font-display)]">
-            Three engines. One workflow.{" "}
+            Meet{" "}
             <span className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] bg-clip-text text-transparent">
-              Zero handoffs.
+              Verse
             </span>
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto">
-            Most teams lose their audience between tools. Verse keeps it intact from first insight to final plan.
+            The only platform that keeps audiences at full definition from insight to plan. For pitches that win and campaigns that land.
           </p>
         </div>
       </section>
