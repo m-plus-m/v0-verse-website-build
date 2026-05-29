@@ -162,8 +162,14 @@ export default function ProductsPage() {
       </section>
       
       {/* Connecting Line / Pull Quote */}
-      <section className="py-16">
-        <div className="mx-auto max-w-5xl px-6 text-center">
+      <section className="relative py-16 overflow-hidden">
+        {/* Gradient background glows */}
+        <div className="absolute inset-0 overflow-hidden">
+          <div className="absolute top-1/2 left-1/3 -translate-x-1/2 -translate-y-1/2 h-[400px] w-[400px] rounded-full bg-[#F15E24]/15 blur-[100px]" />
+          <div className="absolute top-1/2 right-1/3 -translate-x-1/2 -translate-y-1/2 h-[350px] w-[350px] rounded-full bg-[#C52F86]/15 blur-[80px]" />
+        </div>
+        
+        <div className="relative z-10 mx-auto max-w-5xl px-6 text-center">
           <h2 className="text-balance text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl text-foreground">
             The audience your strategist builds is the audience your planner optimizes against.{" "}
             <span className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] bg-clip-text text-transparent">
