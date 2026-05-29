@@ -6,11 +6,11 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight, Layers, LineChart, Presentation, Database, Upload, Target, BarChart3, PieChart } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "ExploreVerse | Audience Profiling Across 50+ Data Providers",
-  description: "ExploreVerse brings 50+ data providers into one workspace so you can analyze, compare and visualize without logging into twelve platforms.",
+  title: "Explore | Audience Profiling Across 50+ Data Providers",
+  description: "Explore brings 50+ data providers into one workspace so you can analyze, compare and visualize without logging into twelve platforms.",
   openGraph: {
-    title: "ExploreVerse | Audience Profiling Across 50+ Data Providers",
-    description: "ExploreVerse brings 50+ data providers into one workspace so you can analyze, compare and visualize without logging into twelve platforms.",
+    title: "Explore | Audience Profiling Across 50+ Data Providers",
+    description: "Explore brings 50+ data providers into one workspace so you can analyze, compare and visualize without logging into twelve platforms.",
   },
 }
 
@@ -60,7 +60,7 @@ const capabilities = [
   },
   {
     title: "Direct segment transfer",
-    description: "Audiences move from ExploreVerse to PlanVerse without duplication. The segment you profiled is the segment you plan against.",
+    description: "Audiences move from Explore to Plan without duplication. The segment you profiled is the segment you plan against.",
     icon: ArrowRight,
   },
 ]
@@ -101,7 +101,7 @@ export default function AudienceProfilingPage() {
             </span>
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-3xl mx-auto">
-            You already subscribe to MRI Simmons, GWI, Kantar and others. ExploreVerse brings them into one workspace so you can analyze, compare and visualize without logging into twelve platforms.
+            You already subscribe to MRI Simmons, GWI, Kantar and others. Explore brings them into one workspace so you can analyze, compare and visualize without logging into twelve platforms.
           </p>
         </div>
       </section>
@@ -110,7 +110,7 @@ export default function AudienceProfilingPage() {
       <section className="border-t border-border/40">
         <div className="mx-auto max-w-6xl px-6 py-20">
           <h2 className="text-3xl font-bold text-foreground mb-12 text-center">
-            What Makes ExploreVerse{" "}
+            What Makes Explore{" "}
             <span className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] bg-clip-text text-transparent">
               Different
             </span>
@@ -148,7 +148,7 @@ export default function AudienceProfilingPage() {
           </h2>
           <div className="rounded-2xl border border-border/40 bg-card/50 p-6">
             <p className="text-muted-foreground leading-relaxed">
-              GWI and MRI Simmons are great data sources. ExploreVerse lets you look across all of them at once, fuse first-party data with syndicated research, and run statistical analysis no single provider&apos;s interface supports. And the segments you build transfer directly into PlanVerse — no rework.
+              GWI and MRI Simmons are great data sources. Explore lets you look across all of them at once, fuse first-party data with syndicated research, and run statistical analysis no single provider&apos;s interface supports. And the segments you build transfer directly into Plan — no rework.
             </p>
           </div>
         </div>
@@ -184,8 +184,8 @@ export default function AudienceProfilingPage() {
         <div className="mx-auto max-w-4xl px-6 py-16 text-center">
           <p className="text-xl text-muted-foreground leading-relaxed">
             Start with a{" "}
-            <Link href="/audience-intelligence" className="text-[#F15E24] hover:underline">DiscoverVerse</Link> audience or build from scratch. Either way, segments transfer directly into{" "}
-            <Link href="/media-planning" className="text-[#F15E24] hover:underline">PlanVerse</Link>.
+            <Link href="/audience-intelligence" className="text-[#F15E24] hover:underline">Discover</Link> audience or build from scratch. Either way, segments transfer directly into{" "}
+            <Link href="/media-planning" className="text-[#F15E24] hover:underline">Plan</Link>.
           </p>
         </div>
       </section>
