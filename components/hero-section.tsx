@@ -36,15 +36,15 @@ export function HeroSection() {
         {/* Subtle divider line */}
         <div className="mx-auto mt-8 h-px w-24 bg-gradient-to-r from-transparent via-foreground/30 to-transparent" />
         
-        <h1 className="mt-8 text-balance text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl font-[family-name:var(--font-display)] lowercase">
-          Global Audience Intelligence,{" "}
+        <h1 className="mt-8 text-balance text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl font-[family-name:var(--font-display)]">
+          Meet{" "}
           <span className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] bg-clip-text text-transparent">
-            Harmonized.
+            Verse
           </span>
         </h1>
         
-        <p className="mt-6 text-lg text-muted-foreground">
-          Audience insight, cross-media planning and activation in one continuous workflow.
+        <p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto">
+          The only platform that keeps audiences at full definition from insight to plan. For pitches that win and campaigns that land.
         </p>
         
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
