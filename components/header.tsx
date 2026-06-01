@@ -17,9 +17,9 @@ export function Header() {
             <Image 
               src="/images/verse-logo.png" 
               alt="Verse" 
-              width={80} 
-              height={24} 
-              className="h-6 w-auto"
+              width={64} 
+              height={20} 
+              className="h-5 w-auto"
               priority
             />
           </Link>
