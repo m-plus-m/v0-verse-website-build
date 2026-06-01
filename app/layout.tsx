@@ -38,6 +38,87 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Verse",
+              "alternateName": "Verse by TelmarHelixa",
+              "url": "https://verse.telmarhelixa.com",
+              "description": "AI-powered audience intelligence platform that connects research, profiling and media planning in one workflow.",
+              "parentOrganization": {
+                "@type": "Organization",
+                "name": "TelmarHelixa",
+                "url": "https://telmarhelixa.com",
+                "foundingDate": "1968",
+                "description": "B2B audience intelligence and media planning company with over 50 years of heritage in audience understanding."
+              },
+              "sameAs": [
+                "https://www.linkedin.com/company/telmargroupinc"
+              ],
+              "knowsAbout": [
+                "audience intelligence",
+                "media planning",
+                "audience segmentation",
+                "cross-media planning",
+                "consumer insights",
+                "audience profiling",
+                "data fusion",
+                "social intelligence"
+              ],
+              "areaServed": {
+                "@type": "Place",
+                "name": "Global (46 countries)"
+              },
+              "makesOffer": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "SoftwareApplication",
+                    "name": "DiscoverVerse",
+                    "applicationCategory": "Audience Intelligence",
+                    "description": "Proprietary audience discovery engine using social signals, search behavior, browsing data and app usage to identify and understand audiences across multiple data sources.",
+                    "operatingSystem": "Web-based (SaaS)",
+                    "offers": {
+                      "@type": "Offer",
+                      "availability": "https://schema.org/InStock"
+                    }
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "SoftwareApplication",
+                    "name": "ExploreVerse",
+                    "applicationCategory": "Data Analytics",
+                    "description": "Enterprise data mining and audience profiling platform with access to 50+ data providers, advanced statistical analysis and custom visualizations in a single workspace.",
+                    "operatingSystem": "Web-based (SaaS)",
+                    "offers": {
+                      "@type": "Offer",
+                      "availability": "https://schema.org/InStock"
+                    }
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "SoftwareApplication",
+                    "name": "PlanVerse",
+                    "applicationCategory": "Media Planning",
+                    "description": "Cross-channel media planning solution for optimizing reach, frequency and channel mix across 70+ media types in 46 countries.",
+                    "operatingSystem": "Web-based (SaaS)",
+                    "offers": {
+                      "@type": "Offer",
+                      "availability": "https://schema.org/InStock"
+                    }
+                  }
+                }
+              ]
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
               "@type": "FAQPage",
               "mainEntity": [
                 {
