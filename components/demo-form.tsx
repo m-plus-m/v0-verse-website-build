@@ -80,37 +80,57 @@ export function DemoForm() {
         }
         .hubspot-form-wrapper .hs-form-field {
           margin-bottom: 1.5rem;
+          position: relative;
         }
-        .hubspot-form-wrapper .hs-form-field label,
-        .hubspot-form-wrapper .hs-form-field > label {
-          display: block;
-          margin-bottom: 0.5rem;
-          font-size: 0.875rem;
-          font-weight: 500;
+        /* Labels - always visible above input */
+        .hubspot-form-wrapper .hs-form-field label:not(.hs-form-booleancheckbox-display):not(.hs-error-msg),
+        .hubspot-form-wrapper .hs-form-field > label:not(.hs-form-booleancheckbox-display):not(.hs-error-msg) {
+          display: block !important;
+          margin-bottom: 0.5rem !important;
+          font-size: 0.875rem !important;
+          font-weight: 500 !important;
           color: hsl(var(--foreground)) !important;
+          position: static !important;
+          transform: none !important;
+          opacity: 1 !important;
+          visibility: visible !important;
         }
+        /* Input wrapper */
+        .hubspot-form-wrapper .input {
+          position: relative !important;
+        }
+        /* Input fields - distinct from labels */
         .hubspot-form-wrapper .hs-input,
         .hubspot-form-wrapper input.hs-input,
+        .hubspot-form-wrapper input[type="text"].hs-input,
+        .hubspot-form-wrapper input[type="email"].hs-input,
+        .hubspot-form-wrapper input[type="tel"].hs-input,
         .hubspot-form-wrapper select.hs-input,
         .hubspot-form-wrapper textarea.hs-input {
+          display: block !important;
           width: 100% !important;
+          height: auto !important;
+          min-height: 2.75rem !important;
           padding: 0.625rem 0.875rem !important;
-          border: 1px solid hsl(var(--border) / 0.6) !important;
+          border: 1px solid rgba(255, 255, 255, 0.2) !important;
           border-radius: 0.375rem !important;
-          background-color: hsl(var(--card) / 0.5) !important;
+          background-color: rgba(255, 255, 255, 0.05) !important;
           color: hsl(var(--foreground)) !important;
           font-size: 0.875rem !important;
-          transition: border-color 0.2s;
+          line-height: 1.5 !important;
+          transition: border-color 0.2s, background-color 0.2s !important;
         }
         .hubspot-form-wrapper .hs-input:focus,
         .hubspot-form-wrapper input.hs-input:focus,
         .hubspot-form-wrapper select.hs-input:focus,
         .hubspot-form-wrapper textarea.hs-input:focus {
           outline: none !important;
-          border-color: hsl(var(--accent)) !important;
+          border-color: #F15E24 !important;
+          background-color: rgba(255, 255, 255, 0.08) !important;
         }
         .hubspot-form-wrapper .hs-input::placeholder {
-          color: hsl(var(--muted-foreground)) !important;
+          color: #6b7280 !important;
+          opacity: 1 !important;
         }
         /* Button styles with maximum specificity */
         .hubspot-form-wrapper .hs-button,
