@@ -277,12 +277,53 @@ export function EarlyAccessForm() {
           width: 1rem !important;
           height: 1rem !important;
           accent-color: #F15E24 !important;
+          order: -1 !important;
         }
         .hubspot-form-wrapper .hs-form-booleancheckbox-display span {
           flex: 1 !important;
         }
         .hubspot-form-wrapper input[type="checkbox"] {
           accent-color: #F15E24 !important;
+          width: 1rem !important;
+          height: 1rem !important;
+        }
+        /* Radio button styling for Yes/No fields */
+        .hubspot-form-wrapper .hs-form-radio,
+        .hubspot-form-wrapper .hs-form-radio-display {
+          display: flex !important;
+          flex-direction: row !important;
+          align-items: center !important;
+          gap: 0.5rem !important;
+        }
+        .hubspot-form-wrapper .hs-form-radio-display input[type="radio"],
+        .hubspot-form-wrapper input[type="radio"] {
+          flex-shrink: 0 !important;
+          width: 1rem !important;
+          height: 1rem !important;
+          accent-color: #F15E24 !important;
+          order: -1 !important;
+          margin: 0 !important;
+        }
+        .hubspot-form-wrapper .hs-form-radio-display span {
+          order: 1 !important;
+        }
+        .hubspot-form-wrapper .inputs-list {
+          list-style: none !important;
+          padding: 0 !important;
+          margin: 0 !important;
+          display: flex !important;
+          flex-direction: row !important;
+          gap: 1.5rem !important;
+        }
+        .hubspot-form-wrapper .inputs-list li {
+          margin: 0 !important;
+        }
+        .hubspot-form-wrapper .inputs-list label {
+          display: flex !important;
+          flex-direction: row !important;
+          align-items: center !important;
+          gap: 0.5rem !important;
+          cursor: pointer !important;
         }
       `}</style>
     </section>
