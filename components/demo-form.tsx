@@ -100,19 +100,23 @@ export function DemoForm() {
         .hubspot-form-wrapper .hs-input::placeholder {
           color: hsl(var(--muted-foreground));
         }
-        .hubspot-form-wrapper .hs-button {
+        .hubspot-form-wrapper .hs-button,
+        .hubspot-form-wrapper .hs-submit input[type="submit"],
+        .hubspot-form-wrapper input[type="submit"] {
           width: 100%;
           padding: 0.75rem 1.5rem;
-          background: linear-gradient(to right, #F15E24, #C52F86);
-          color: white;
+          background: linear-gradient(to right, #F15E24, #C52F86) !important;
+          color: white !important;
           font-weight: 500;
           font-size: 0.875rem;
-          border: none;
+          border: none !important;
           border-radius: 0.375rem;
           cursor: pointer;
           transition: opacity 0.2s;
         }
-        .hubspot-form-wrapper .hs-button:hover {
+        .hubspot-form-wrapper .hs-button:hover,
+        .hubspot-form-wrapper .hs-submit input[type="submit"]:hover,
+        .hubspot-form-wrapper input[type="submit"]:hover {
           opacity: 0.9;
         }
         .hubspot-form-wrapper .hs-error-msgs {
@@ -125,9 +129,23 @@ export function DemoForm() {
           padding: 3rem 1.5rem;
           color: hsl(var(--foreground));
         }
-        .hubspot-form-wrapper .hs-richtext {
-          color: hsl(var(--muted-foreground));
+        .hubspot-form-wrapper .hs-richtext,
+        .hubspot-form-wrapper .legal-consent-container,
+        .hubspot-form-wrapper .hs-form-booleancheckbox-display,
+        .hubspot-form-wrapper .hs-form-booleancheckbox-display span,
+        .hubspot-form-wrapper .hs-form-booleancheckbox-display p,
+        .hubspot-form-wrapper .legal-consent-container .hs-richtext p {
+          color: hsl(var(--muted-foreground)) !important;
           font-size: 0.875rem;
+        }
+        .hubspot-form-wrapper .legal-consent-container a,
+        .hubspot-form-wrapper .hs-richtext a {
+          color: #F15E24 !important;
+          text-decoration: underline;
+        }
+        .hubspot-form-wrapper .legal-consent-container a:hover,
+        .hubspot-form-wrapper .hs-richtext a:hover {
+          color: #C52F86 !important;
         }
         .hubspot-form-wrapper select.hs-input {
           appearance: none;
