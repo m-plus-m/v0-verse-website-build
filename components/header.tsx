@@ -71,11 +71,6 @@ export function Header() {
               FAQ
             </Button>
           </Link>
-          <Link href="/early-access">
-            <Button variant="outline" size="sm" className="border-accent/60 text-foreground hover:bg-accent/10 hover:border-accent">
-              Get Early Access
-            </Button>
-          </Link>
           <Link href="/demo">
             <Button size="sm" className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] text-white hover:opacity-90 border-0">
               Book a Demo
