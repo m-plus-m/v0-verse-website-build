@@ -112,7 +112,7 @@ export function DemoForm() {
           height: auto !important;
           min-height: 2.75rem !important;
           padding: 0.625rem 0.875rem !important;
-          border: 1px solid rgba(255, 255, 255, 0.2) !important;
+          border: 1px solid rgba(255, 255, 255, 0.6) !important;
           border-radius: 0.375rem !important;
           background-color: rgba(255, 255, 255, 0.05) !important;
           color: hsl(var(--foreground)) !important;
@@ -129,7 +129,7 @@ export function DemoForm() {
           background-color: rgba(255, 255, 255, 0.08) !important;
         }
         .hubspot-form-wrapper .hs-input::placeholder {
-          color: #6b7280 !important;
+          color: rgba(255, 255, 255, 0.7) !important;
           opacity: 1 !important;
         }
         /* Button styles with maximum specificity */
@@ -208,7 +208,7 @@ export function DemoForm() {
         .hubspot-form-wrapper select.hs-input {
           appearance: none !important;
           -webkit-appearance: none !important;
-          background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e") !important;
+          background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e") !important;
           background-position: right 0.5rem center !important;
           background-repeat: no-repeat !important;
           background-size: 1.5em 1.5em !important;
