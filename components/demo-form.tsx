@@ -99,7 +99,7 @@ export function DemoForm() {
           visibility: visible !important;
           text-align: left !important;
         }
-        /* Input wrapper - force full width */
+        /* Input wrapper - keep two-column layout */
         .hubspot-form-wrapper .input,
         .hubspot-form-wrapper .hs-fieldtype-text .input,
         .hubspot-form-wrapper .hs-fieldtype-select .input,
@@ -107,9 +107,22 @@ export function DemoForm() {
           width: 100% !important;
           position: relative !important;
         }
-        .hubspot-form-wrapper .hs-form-field,
-        .hubspot-form-wrapper .hs-fieldtype-text,
-        .hubspot-form-wrapper .hs-fieldtype-select {
+        /* Form row layout - two fields per row */
+        .hubspot-form-wrapper .form-columns-2 {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          gap: 1rem !important;
+          width: 100% !important;
+        }
+        .hubspot-form-wrapper .form-columns-2 > .hs-form-field {
+          flex: 1 1 calc(50% - 0.5rem) !important;
+          min-width: 200px !important;
+          width: auto !important;
+        }
+        .hubspot-form-wrapper .form-columns-1 {
+          width: 100% !important;
+        }
+        .hubspot-form-wrapper .form-columns-1 > .hs-form-field {
           width: 100% !important;
         }
         /* Input fields - distinct from labels */
