@@ -61,7 +61,7 @@ export function DemoForm() {
         <div 
           id="hubspot-form-container" 
           ref={formContainerRef}
-          className="hubspot-form-wrapper"
+          className="hubspot-form-wrapper text-center"
         />
         
         <p className="text-center text-sm text-muted-foreground mt-8">
@@ -77,10 +77,13 @@ export function DemoForm() {
         }
         .hubspot-form-wrapper .hs-form {
           font-family: inherit;
+          max-width: 100% !important;
+          margin: 0 auto !important;
         }
         .hubspot-form-wrapper .hs-form-field {
           margin-bottom: 1.5rem;
           position: relative;
+          text-align: left !important;
         }
         /* Labels - always visible above input */
         .hubspot-form-wrapper .hs-form-field label:not(.hs-form-booleancheckbox-display):not(.hs-error-msg),
@@ -94,6 +97,7 @@ export function DemoForm() {
           transform: none !important;
           opacity: 1 !important;
           visibility: visible !important;
+          text-align: left !important;
         }
         /* Input wrapper */
         .hubspot-form-wrapper .input {
