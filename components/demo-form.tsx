@@ -99,9 +99,18 @@ export function DemoForm() {
           visibility: visible !important;
           text-align: left !important;
         }
-        /* Input wrapper */
-        .hubspot-form-wrapper .input {
+        /* Input wrapper - force full width */
+        .hubspot-form-wrapper .input,
+        .hubspot-form-wrapper .hs-fieldtype-text .input,
+        .hubspot-form-wrapper .hs-fieldtype-select .input,
+        .hubspot-form-wrapper .hs-form-field .input {
+          width: 100% !important;
           position: relative !important;
+        }
+        .hubspot-form-wrapper .hs-form-field,
+        .hubspot-form-wrapper .hs-fieldtype-text,
+        .hubspot-form-wrapper .hs-fieldtype-select {
+          width: 100% !important;
         }
         /* Input fields - distinct from labels */
         .hubspot-form-wrapper .hs-input,
