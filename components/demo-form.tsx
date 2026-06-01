@@ -194,7 +194,23 @@ export function DemoForm() {
           background-size: 1.5em 1.5em !important;
           padding-right: 2.5rem !important;
         }
-        /* Checkbox styling */
+        /* Checkbox styling - inline with label */
+        .hubspot-form-wrapper .hs-form-booleancheckbox-display {
+          display: flex !important;
+          flex-direction: row !important;
+          align-items: flex-start !important;
+          gap: 0.75rem !important;
+        }
+        .hubspot-form-wrapper .hs-form-booleancheckbox-display input[type="checkbox"] {
+          flex-shrink: 0 !important;
+          margin-top: 0.25rem !important;
+          width: 1rem !important;
+          height: 1rem !important;
+          accent-color: #F15E24 !important;
+        }
+        .hubspot-form-wrapper .hs-form-booleancheckbox-display span {
+          flex: 1 !important;
+        }
         .hubspot-form-wrapper input[type="checkbox"] {
           accent-color: #F15E24 !important;
         }
