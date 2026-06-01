@@ -158,6 +158,10 @@ export function DemoForm() {
           color: rgba(255, 255, 255, 0.7) !important;
           opacity: 1 !important;
         }
+        /* Submit button container - add spacing */
+        .hubspot-form-wrapper .hs-submit {
+          margin-top: 1.5rem !important;
+        }
         /* Button styles with maximum specificity */
         .hubspot-form-wrapper .hs-button,
         .hubspot-form-wrapper .hs-button.primary,
