@@ -25,8 +25,7 @@ export function VerseAIBlock() {
         </h2>
         
         <p className="mx-auto max-w-2xl text-lg text-muted-foreground leading-relaxed mb-8">
-          Verse AI routes your work across all three engines and gets you from 
-          insight to activation in a single workflow.
+          Verse AI routes your work across three agents with a single prompt. Join the waitlist to get early access.
         </p>
         
         <Button 
