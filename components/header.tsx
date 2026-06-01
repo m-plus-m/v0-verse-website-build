@@ -13,7 +13,10 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-border/40 bg-background/80 backdrop-blur-lg">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
         <div className="flex items-center gap-8">
-          <Link href="/" className="flex items-center">
+          <Link href="/" className="flex items-center gap-2">
+            <div className="h-6 w-6 rounded-md bg-gradient-to-br from-[#F15E24] to-[#C52F86] flex items-center justify-center">
+              <span className="text-white text-xs font-bold">V</span>
+            </div>
             <Image 
               src="/images/verse-logo.png" 
               alt="Verse" 
