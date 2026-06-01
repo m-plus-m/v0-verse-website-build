@@ -24,7 +24,7 @@ const workflowSteps = [
   {
     number: "02",
     title: "Validate with Fused Data",
-    description: "Enrich with MRI Simmons, GWI, Kantar and 50+ survey sources for a complete view.",
+    description: "Validate with syndicated behavioral and media intelligence ecosystems across 50+ global data partners.",
     href: "/audience-profiling",
   },
   {
