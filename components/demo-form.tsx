@@ -1,38 +1,55 @@
 "use client"
 
-import { useState } from "react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
+import { useEffect, useRef } from "react"
+
+declare global {
+  interface Window {
+    hbspt?: {
+      forms: {
+        create: (config: {
+          portalId: string
+          formId: string
+          region: string
+          target: string
+        }) => void
+      }
+    }
+  }
+}
 
 export function DemoForm() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    company: "",
-    role: "",
-  })
-  const [isSubmitting, setIsSubmitting] = useState(false)
-  const [isSubmitted, setIsSubmitted] = useState(false)
+  const formContainerRef = useRef<HTMLDivElement>(null)
+  const formCreated = useRef(false)
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsSubmitting(true)
+  useEffect(() => {
+    // Load HubSpot script
+    const script = document.createElement("script")
+    script.src = "//js.hsforms.net/forms/embed/v2.js"
+    script.charset = "utf-8"
+    script.async = true
     
-    // Placeholder for HubSpot form integration
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1000))
+    script.onload = () => {
+      // Create form after script loads
+      if (window.hbspt && formContainerRef.current && !formCreated.current) {
+        formCreated.current = true
+        window.hbspt.forms.create({
+          portalId: "544981",
+          formId: "4194ac09-d493-4ad8-af5c-1dcd76066f45",
+          region: "na1",
+          target: "#hubspot-form-container"
+        })
+      }
+    }
     
-    setIsSubmitting(false)
-    setIsSubmitted(true)
-  }
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setFormData((prev) => ({
-      ...prev,
-      [e.target.name]: e.target.value,
-    }))
-  }
+    document.body.appendChild(script)
+    
+    return () => {
+      // Cleanup script on unmount
+      if (document.body.contains(script)) {
+        document.body.removeChild(script)
+      }
+    }
+  }, [])
 
   return (
     <section className="py-20 px-6">
@@ -41,93 +58,86 @@ export function DemoForm() {
           Find out how teams are using Discover, Explore and Plan to get from audience insight to media plan faster — without stitching together five tools to get there.
         </p>
         
-        {isSubmitted ? (
-          <div className="text-center py-12 px-6 rounded-2xl border border-border/40 bg-card/50">
-            <div className="mb-4 inline-flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-[#F15E24] to-[#C52F86]">
-              <svg className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-              </svg>
-            </div>
-            <h3 className="text-2xl font-semibold text-foreground mb-2">Thank you!</h3>
-            <p className="text-muted-foreground">We&apos;ll be in touch within one business day.</p>
-          </div>
-        ) : (
-          <form onSubmit={handleSubmit} className="space-y-6">
-            <div className="grid gap-6 sm:grid-cols-2">
-              <div className="space-y-2">
-                <Label htmlFor="name" className="text-foreground">Name</Label>
-                <Input
-                  id="name"
-                  name="name"
-                  type="text"
-                  required
-                  value={formData.name}
-                  onChange={handleChange}
-                  className="bg-card/50 border-border/60 focus:border-accent"
-                  placeholder="Your name"
-                />
-              </div>
-              
-              <div className="space-y-2">
-                <Label htmlFor="email" className="text-foreground">Work Email</Label>
-                <Input
-                  id="email"
-                  name="email"
-                  type="email"
-                  required
-                  value={formData.email}
-                  onChange={handleChange}
-                  className="bg-card/50 border-border/60 focus:border-accent"
-                  placeholder="you@company.com"
-                />
-              </div>
-              
-              <div className="space-y-2">
-                <Label htmlFor="company" className="text-foreground">Company</Label>
-                <Input
-                  id="company"
-                  name="company"
-                  type="text"
-                  required
-                  value={formData.company}
-                  onChange={handleChange}
-                  className="bg-card/50 border-border/60 focus:border-accent"
-                  placeholder="Your company"
-                />
-              </div>
-              
-              <div className="space-y-2">
-                <Label htmlFor="role" className="text-foreground">Role</Label>
-                <Input
-                  id="role"
-                  name="role"
-                  type="text"
-                  required
-                  value={formData.role}
-                  onChange={handleChange}
-                  className="bg-card/50 border-border/60 focus:border-accent"
-                  placeholder="Your role"
-                />
-              </div>
-            </div>
-            
-            <div className="pt-4">
-              <Button
-                type="submit"
-                size="lg"
-                disabled={isSubmitting}
-                className="w-full bg-gradient-to-r from-[#F15E24] to-[#C52F86] text-white hover:opacity-90 border-0"
-              >
-                {isSubmitting ? "Submitting..." : "Request a Demo"}
-              </Button>
-            </div>
-            
-            <p className="text-center text-sm text-muted-foreground">
-              We&apos;ll be in touch within one business day.
-            </p>
-          </form>
-        )}
+        <div 
+          id="hubspot-form-container" 
+          ref={formContainerRef}
+          className="hubspot-form-wrapper"
+        />
+        
+        <p className="text-center text-sm text-muted-foreground mt-8">
+          We&apos;ll be in touch within one business day.
+        </p>
       </div>
+      
+      <style jsx global>{`
+        .hubspot-form-wrapper .hs-form {
+          font-family: inherit;
+        }
+        .hubspot-form-wrapper .hs-form-field {
+          margin-bottom: 1.5rem;
+        }
+        .hubspot-form-wrapper .hs-form-field label {
+          display: block;
+          margin-bottom: 0.5rem;
+          font-size: 0.875rem;
+          font-weight: 500;
+          color: hsl(var(--foreground));
+        }
+        .hubspot-form-wrapper .hs-input {
+          width: 100%;
+          padding: 0.625rem 0.875rem;
+          border: 1px solid hsl(var(--border) / 0.6);
+          border-radius: 0.375rem;
+          background-color: hsl(var(--card) / 0.5);
+          color: hsl(var(--foreground));
+          font-size: 0.875rem;
+          transition: border-color 0.2s;
+        }
+        .hubspot-form-wrapper .hs-input:focus {
+          outline: none;
+          border-color: hsl(var(--accent));
+        }
+        .hubspot-form-wrapper .hs-input::placeholder {
+          color: hsl(var(--muted-foreground));
+        }
+        .hubspot-form-wrapper .hs-button {
+          width: 100%;
+          padding: 0.75rem 1.5rem;
+          background: linear-gradient(to right, #F15E24, #C52F86);
+          color: white;
+          font-weight: 500;
+          font-size: 0.875rem;
+          border: none;
+          border-radius: 0.375rem;
+          cursor: pointer;
+          transition: opacity 0.2s;
+        }
+        .hubspot-form-wrapper .hs-button:hover {
+          opacity: 0.9;
+        }
+        .hubspot-form-wrapper .hs-error-msgs {
+          margin-top: 0.25rem;
+          font-size: 0.75rem;
+          color: #ef4444;
+        }
+        .hubspot-form-wrapper .submitted-message {
+          text-align: center;
+          padding: 3rem 1.5rem;
+          color: hsl(var(--foreground));
+        }
+        .hubspot-form-wrapper .hs-richtext {
+          color: hsl(var(--muted-foreground));
+          font-size: 0.875rem;
+        }
+        .hubspot-form-wrapper select.hs-input {
+          appearance: none;
+          background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+          background-position: right 0.5rem center;
+          background-repeat: no-repeat;
+          background-size: 1.5em 1.5em;
+          padding-right: 2.5rem;
+        }
+      `}</style>
     </section>
   )
 }
