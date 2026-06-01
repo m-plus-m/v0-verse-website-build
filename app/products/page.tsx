@@ -24,7 +24,7 @@ const workflowSteps = [
   {
     number: "02",
     title: "Validate with Fused Data",
-    description: "Validate with syndicated behavioral and media intelligence ecosystems across 50+ global data partners.",
+    description: <>Validate with syndicated behavioral and media intelligence ecosystems across <a href="https://telmarhelixa.com/datahub" target="_blank" rel="noopener noreferrer" className="text-[#F15E24] hover:underline">50+ global data partners</a>.</>,
     href: "/audience-profiling",
   },
   {
