@@ -118,7 +118,7 @@ export default function AudienceIntelligencePage() {
             </span>
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Machine learning powers our segmentation and psychographic modeling. Our AI query builder, Stanley, surfaces audiences and generates strategic profiles in seconds. The difference: our AI analyzes real behavioral data, not training sets. AI is the engine, not the source.
+            Machine learning powers our segmentation and psychographic modeling. Our AI query builder, Stanley, surfaces audiences and generates strategic profiles in seconds. The difference: our AI analyzes real behavioral data, normalized to reflect the actual population. No synthetic audiences or assumptions made from publicly available information. AI is the engine, not the source.
           </p>
         </div>
       </section>
