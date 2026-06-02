@@ -103,7 +103,7 @@ export default function AudienceIntelligencePage() {
             </span>
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-3xl mx-auto">
-            Discover builds audiences from observed human behavior fused with gold-standard consumer research. The difference is a pitch that wins and a campaign that works — or expensive proof that guesswork doesn&apos;t scale.
+            Discover builds audiences from observed human behavior fused with gold-standard consumer research.
           </p>
         </div>
       </section>
