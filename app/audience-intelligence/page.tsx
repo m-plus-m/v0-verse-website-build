@@ -166,7 +166,7 @@ export default function AudienceIntelligencePage() {
           <div className="space-y-6">
             <div className="rounded-2xl border border-border/40 bg-card/50 p-6">
               <p className="text-muted-foreground leading-relaxed">
-                <span className="font-semibold text-foreground">If you use MRI Simmons, GWI or Kantar:</span> Discover doesn&apos;t replace them — it supercharges them. Surveys tell you they buy Tide. Discover tells you why — they&apos;re sustainably minded parents who follow eco-influencers and engage in parenting communities.
+                <span className="font-semibold text-foreground">If you use MRI Simmons, GWI or Kantar:</span>{" "}Discover doesn&apos;t replace them — it supercharges them. Surveys tell you they buy Tide. Discover tells you why — they&apos;re sustainably minded parents who follow eco-influencers and engage in parenting communities.
               </p>
             </div>
             <div className="rounded-2xl border border-border/40 bg-card/50 p-6">
