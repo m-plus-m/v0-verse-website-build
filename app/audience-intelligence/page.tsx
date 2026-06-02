@@ -111,14 +111,14 @@ export default function AudienceIntelligencePage() {
       
       {/* AI Differently Section */}
       <section className="border-t border-border/40">
-        <div className="mx-auto max-w-6xl px-6 py-8">
+        <div className="mx-auto max-w-6xl px-6 py-2">
           <div className="flex flex-col lg:flex-row items-center gap-6">
             <div className="lg:w-1/2">
               <Image
                 src="/images/stanley-query.png"
                 alt="Stanley Query - AI query builder showing audience segmentation"
-                width={600}
-                height={480}
+                width={700}
+                height={560}
                 className="rounded-lg w-full"
               />
             </div>
