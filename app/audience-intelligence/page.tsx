@@ -103,7 +103,7 @@ export default function AudienceIntelligencePage() {
             </span>
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-3xl mx-auto">
-            Discover builds audiences from observed human behavior fused with gold-standard consumer research. The difference is a pitch that wins and a campaign that works — or expensive proof that guesswork doesn&apos;t scale.
+            Discover builds audiences from observed human behavior fused with gold-standard consumer research.
           </p>
         </div>
       </section>
@@ -118,7 +118,7 @@ export default function AudienceIntelligencePage() {
             </span>
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Machine learning powers our segmentation and psychographic modeling. Our AI query builder, Stanley, surfaces audiences and generates strategic profiles in seconds. The difference: our AI analyzes real behavioral data, not training sets. AI is the engine, not the source.
+            Machine learning powers our segmentation and psychographic modeling. Our AI query builder, Stanley, surfaces audiences and generates strategic profiles in seconds. The difference: our AI analyzes real behavioral data, normalized to reflect the actual population. No synthetic audiences or assumptions made from publicly available information. AI is the engine, not the source.
           </p>
         </div>
       </section>
@@ -166,7 +166,7 @@ export default function AudienceIntelligencePage() {
           <div className="space-y-6">
             <div className="rounded-2xl border border-border/40 bg-card/50 p-6">
               <p className="text-muted-foreground leading-relaxed">
-                <span className="font-semibold text-foreground">If you use MRI Simmons, GWI or Kantar:</span> Discover doesn&apos;t replace them — it supercharges them. Surveys tell you they buy Tide. Discover tells you why — they&apos;re sustainably minded parents who follow eco-influencers and engage in parenting communities.
+                <span className="font-semibold text-foreground">If you use MRI Simmons, GWI or Kantar:</span>{" "}Discover doesn&apos;t replace them, it supercharges them. Surveys tell you they buy Tide. Discover tells you why — they&apos;re sustainably minded parents who follow eco-influencers and engage in parenting communities.
               </p>
             </div>
             <div className="rounded-2xl border border-border/40 bg-card/50 p-6">
