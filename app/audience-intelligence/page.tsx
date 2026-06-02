@@ -1,5 +1,6 @@
 import { Metadata } from "next"
 import Link from "next/link"
+import Image from "next/image"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { ProductBreadcrumb } from "@/components/product-breadcrumb"
@@ -110,16 +111,29 @@ export default function AudienceIntelligencePage() {
       
       {/* AI Differently Section */}
       <section className="border-t border-border/40">
-        <div className="mx-auto max-w-4xl px-6 py-20">
-          <h2 className="text-3xl font-bold text-foreground mb-6">
-            We Use AI Too —{" "}
-            <span className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] bg-clip-text text-transparent">
-              Differently
-            </span>
-          </h2>
-          <p className="text-lg text-muted-foreground leading-relaxed">
-            Machine learning powers our segmentation and psychographic modeling. Our AI query builder, Stanley, surfaces audiences and generates strategic profiles in seconds. The difference: our AI analyzes real behavioral data, normalized to reflect the actual population. No synthetic audiences or assumptions made from publicly available information. AI is the engine, not the source.
-          </p>
+        <div className="mx-auto max-w-6xl px-6 py-20">
+          <div className="flex flex-col lg:flex-row items-center gap-12">
+            <div className="lg:w-1/2">
+              <Image
+                src="/images/stanley-query.png"
+                alt="Stanley Query - AI query builder showing audience segmentation"
+                width={500}
+                height={400}
+                className="rounded-2xl"
+              />
+            </div>
+            <div className="lg:w-1/2">
+              <h2 className="text-3xl font-bold text-foreground mb-6">
+                We Use AI Too —{" "}
+                <span className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] bg-clip-text text-transparent">
+                  Differently
+                </span>
+              </h2>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Machine learning powers our segmentation and psychographic modeling. Our AI query builder, Stanley, surfaces audiences and generates strategic profiles in seconds. The difference: our AI analyzes real behavioral data, normalized to reflect the actual population. No synthetic audiences or assumptions made from publicly available information. AI is the engine, not the source.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
       
