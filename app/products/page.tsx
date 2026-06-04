@@ -6,11 +6,11 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Verse Products | Audience Intelligence, Profiling & Media Planning",
-  description: "Three engines, one workflow. DiscoverVerse, ExploreVerse and PlanVerse keep your audience at full definition from insight to media plan.",
+  title: "Verse Products | Consumer Insights, Audience Analysis & Media Planning",
+  description: "Three engines, one workflow. Discover, Explore and Plan keep your audience fidelity from insights to plan and activation.",
   openGraph: {
-    title: "Verse Products | Audience Intelligence, Profiling & Media Planning",
-    description: "Three engines, one workflow. DiscoverVerse, ExploreVerse and PlanVerse keep your audience at full definition from insight to media plan.",
+    title: "Verse Products | Consumer Insights, Audience Analysis & Media Planning",
+    description: "Three engines, one workflow. Discover, Explore and Plan keep your audience fidelity from insights to plan and activation.",
   },
 }
 
