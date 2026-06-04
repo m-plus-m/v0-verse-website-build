@@ -150,7 +150,7 @@ export default function MediaPlanningPage() {
           </h2>
           <div className="rounded-2xl border border-border/40 bg-card/50 p-6">
             <p className="text-muted-foreground leading-relaxed">
-              Most planning tools start from zero. Plan is the only one that receives audience segments directly from an integrated research and profiling workflow. The nuanced audience your strategist built is the exact audience your planner optimizes against — across 70+ media types in 46 countries.
+              Traditional planning tools were built for siloed media. Plan unifies online and offline channels into one currency view, making reach, frequency and duplication easier to measure across the entire media mix, with or without a data subscription.
             </p>
           </div>
         </div>
