@@ -7,11 +7,11 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight, Layers, LineChart, Presentation, Database, Upload, Target, BarChart3, PieChart } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Explore | Audience Profiling Across 50+ Data Providers",
-  description: "Explore brings 50+ data providers into one workspace so you can analyze, compare and visualize without logging into twelve platforms.",
+  title: "Explore | Audience Analysis, Market Segmentation & Cross Channel Intelligence",
+  description: "Explore transforms fragmented research into clear, strategic audience intelligence through advanced segmentation, visual analytics and intuitive statistical exploration.",
   openGraph: {
-    title: "Explore | Audience Profiling Across 50+ Data Providers",
-    description: "Explore brings 50+ data providers into one workspace so you can analyze, compare and visualize without logging into twelve platforms.",
+    title: "Explore | Audience Analysis, Market Segmentation & Cross Channel Intelligence",
+    description: "Explore transforms fragmented research into clear, strategic audience intelligence through advanced segmentation, visual analytics and intuitive statistical exploration.",
   },
 }
 
@@ -66,11 +66,11 @@ const capabilities = [
   },
 ]
 
-export default function AudienceProfilingPage() {
+export default function AudienceAnalysisPage() {
   return (
     <main className="min-h-screen bg-background text-foreground">
       <Header />
-      <ProductBreadcrumb productName="Explore" categoryName="Audience Profiling" />
+      <ProductBreadcrumb productName="Explore" categoryName="Audience Analysis" />
       
       {/* Hero Section */}
       <section className="relative min-h-[50vh] flex items-center justify-center overflow-hidden pt-28">
@@ -97,13 +97,13 @@ export default function AudienceProfilingPage() {
         
         <div className="relative z-10 mx-auto max-w-4xl px-6 text-center py-20">
           <h1 className="text-balance text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl font-[family-name:var(--font-display)] lowercase">
-            profile and segment{" "}
+            Make sense of complex audiences.{" "}
             <span className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] bg-clip-text text-transparent">
-              without the tab-switching.
+              Faster.
             </span>
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-3xl mx-auto">
-            You already subscribe to MRI Simmons, GWI, Kantar and others. Explore brings them into one workspace so you can analyze, compare and visualize without logging into twelve platforms.
+            Explore transforms fragmented research into clear, strategic audience intelligence through advanced segmentation, visual analytics and intuitive statistical exploration — eliminate the bottlenecks of traditional analysis workflows. Advanced analytics. Without the complexity trap.
           </p>
         </div>
       </section>

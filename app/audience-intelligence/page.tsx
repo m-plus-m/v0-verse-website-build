@@ -37,12 +37,12 @@ const differentiators = [
 const capabilities = [
   {
     title: "Micro-segmentation",
-    description: "K-means clustering surfaces niche communities hidden inside broad audiences. Seconds, not weeks.",
+    description: "Reveal niche and high-value audience groups traditional segmentation misses.",
     icon: Users,
   },
   {
     title: "90 psychographic traits",
-    description: "ML-derived lifestyle profiles — from \"Citizen Sleuths\" to \"Professional Tech Lovers\" — that surveys can't surface.",
+    description: "Behaviorally-derived lifestyle profiles — from \"Citizen Sleuths\" to \"Professional Tech Lovers\" — that surveys can't surface.",
     icon: Sparkles,
   },
   {
@@ -62,7 +62,7 @@ const capabilities = [
   },
   {
     title: "AI query builder (Stanley)",
-    description: "10 hours of cross-tabbing in 10 minutes. Audience recommendations, proxy suggestions and psychographic summaries on demand.",
+    description: "Audience recommendations, proxy suggestions and psychographic summaries on demand.",
     icon: Zap,
   },
 ]
@@ -217,22 +217,11 @@ export default function AudienceIntelligencePage() {
         </div>
       </section>
       
-      {/* Flow Section */}
-      <section className="border-t border-border/40">
-        <div className="mx-auto max-w-4xl px-6 py-16 text-center">
-          <p className="text-xl text-muted-foreground leading-relaxed">
-            Audiences from Discover flow directly into{" "}
-            <Link href="/media-planning" className="text-[#F15E24] hover:underline">Plan</Link> for media planning.{" "}
-            <span className="text-foreground font-semibold">The audience you built is the audience you optimize against.</span>
-          </p>
-        </div>
-      </section>
-      
       {/* CTA Section */}
       <section className="border-t border-border/40 bg-gradient-to-b from-background to-[#2B2D42]/30">
         <div className="mx-auto max-w-3xl px-6 py-20 text-center">
           <h2 className="text-3xl font-bold text-foreground sm:text-4xl">
-            See the difference real data makes.
+            Start surfacing insights that move the needle.
           </h2>
           <div className="mt-10">
             <Link href="/demo">

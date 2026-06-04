@@ -6,11 +6,11 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Verse Products | Audience Intelligence, Profiling & Media Planning",
-  description: "Three engines, one workflow. DiscoverVerse, ExploreVerse and PlanVerse keep your audience at full definition from insight to media plan.",
+  title: "Verse Products | Consumer Insights, Audience Analysis & Media Planning",
+  description: "Three engines, one workflow. Discover, Explore and Plan keep your audience fidelity from insights to plan and activation.",
   openGraph: {
-    title: "Verse Products | Audience Intelligence, Profiling & Media Planning",
-    description: "Three engines, one workflow. DiscoverVerse, ExploreVerse and PlanVerse keep your audience at full definition from insight to media plan.",
+    title: "Verse Products | Consumer Insights, Audience Analysis & Media Planning",
+    description: "Three engines, one workflow. Discover, Explore and Plan keep your audience fidelity from insights to plan and activation.",
   },
 }
 
@@ -25,12 +25,12 @@ const workflowSteps = [
     number: "02",
     title: "Validate with Fused Data",
     description: <>Validate with syndicated behavioral and media intelligence ecosystems across <a href="https://telmarhelixa.com/datahub" target="_blank" rel="noopener noreferrer" className="text-[#F15E24] hover:underline">50+ global data partners</a>.</>,
-    href: "/audience-profiling",
+    href: "/audience-analysis",
   },
   {
     number: "03",
-    title: "Optimize Your Plan",
-    description: "Activate the same audience across 70+ media types with unified reach and frequency.",
+    title: "Optimize Your Media Plan",
+    description: "Activate audiences across 70+ media types with unified reach and frequency.",
     href: "/media-planning",
   },
 ]
@@ -44,7 +44,7 @@ const productCards = [
   {
     name: "Explore",
     description: "50+ data providers in one workspace. Profile, segment and visualize without the tab-switching.",
-    href: "/audience-profiling",
+    href: "/audience-analysis",
   },
   {
     name: "Plan",

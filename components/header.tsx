@@ -55,11 +55,11 @@ export function Header() {
                     <span className="text-muted-foreground"> / Audience Intelligence</span>
                   </Link>
                   <Link 
-                    href="/audience-profiling" 
+                    href="/audience-analysis" 
                     className="block px-4 py-2.5 text-sm text-muted-foreground hover:text-foreground hover:bg-accent/10 transition-colors"
                   >
                     <span className="font-medium text-foreground">Explore</span>
-                    <span className="text-muted-foreground"> / Audience Profiling</span>
+                    <span className="text-muted-foreground"> / Audience Analysis</span>
                   </Link>
                   <Link 
                     href="/media-planning" 
