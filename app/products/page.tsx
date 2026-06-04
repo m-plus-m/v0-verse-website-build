@@ -29,8 +29,8 @@ const workflowSteps = [
   },
   {
     number: "03",
-    title: "Optimize Your Plan",
-    description: "Activate the same audience across 70+ media types with unified reach and frequency.",
+    title: "Optimize Your Media Plan",
+    description: "Activate audiences across 70+ media types with unified reach and frequency.",
     href: "/media-planning",
   },
 ]
