@@ -190,9 +190,8 @@ export default function MediaPlanningPage() {
       <section className="border-t border-border/40">
         <div className="mx-auto max-w-4xl px-6 py-16 text-center">
           <p className="text-xl text-muted-foreground leading-relaxed">
-            Plan completes the workflow. Audiences from{" "}
-            <Link href="/audience-intelligence" className="text-[#F15E24] hover:underline">Discover</Link> and{" "}
-            <Link href="/audience-analysis" className="text-[#F15E24] hover:underline">Explore</Link> arrive ready to plan against — no translation, no rebuilt segments.
+            Plan completes the workflow.{" "}
+            <Link href="/audience-analysis" className="text-[#F15E24] hover:underline">Explore</Link> audiences flow directly into media planning — preserving the audience fidelity from insight to optimization.
           </p>
         </div>
       </section>
