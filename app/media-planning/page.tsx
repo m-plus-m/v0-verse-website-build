@@ -17,19 +17,19 @@ export const metadata: Metadata = {
 
 const differentiators = [
   {
+    title: "Flexible media modeling — no subscription required",
+    description: "Not every campaign fits neatly inside a syndicated survey. Plan lets teams model digital and traditional media mixes with or without subscriptions, opening up planning flexibility most platforms can't support.",
+    icon: Database,
+  },
+  {
     title: "Audience fidelity from insight to plan",
-    description: "Custom audiences keep their full definition from research through planning. No approximation, no manual rebuild.",
+    description: "Custom audiences keep their full definition from research through planning. No approximation. No manual rebuild. The audience you build is the audience you optimize against.",
     icon: Users,
   },
   {
-    title: "One currency across every channel",
-    description: "TV, digital, OOH, audio, print and emerging channels in a single reach and frequency measurement.",
+    title: "70+ touchpoints unified instantly",
+    description: "Social, TV, Audio, Digital, Retail media, OOH, Print and more. Online and offline media are measured through one unified currency view, so fragmented channels finally plan like one campaign.",
     icon: Tv,
-  },
-  {
-    title: "Data-neutral",
-    description: "Works with any data source. Design campaigns around your strategy, not your vendor's limitations.",
-    icon: Database,
   },
 ]
 
