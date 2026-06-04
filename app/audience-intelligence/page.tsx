@@ -37,7 +37,7 @@ const differentiators = [
 const capabilities = [
   {
     title: "Micro-segmentation",
-    description: "K-means clustering surfaces niche communities hidden inside broad audiences. Seconds, not weeks.",
+    description: "Reveal niche and high-value audience groups traditional segmentation misses.",
     icon: Users,
   },
   {
