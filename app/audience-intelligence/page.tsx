@@ -221,7 +221,7 @@ export default function AudienceIntelligencePage() {
       <section className="border-t border-border/40 bg-gradient-to-b from-background to-[#2B2D42]/30">
         <div className="mx-auto max-w-3xl px-6 py-20 text-center">
           <h2 className="text-3xl font-bold text-foreground sm:text-4xl">
-            See the difference real data makes.
+            Start surfacing insights that move the needle.
           </h2>
           <div className="mt-10">
             <Link href="/demo">
