@@ -66,11 +66,11 @@ const capabilities = [
   },
 ]
 
-export default function AudienceProfilingPage() {
+export default function AudienceAnalysisPage() {
   return (
     <main className="min-h-screen bg-background text-foreground">
       <Header />
-      <ProductBreadcrumb productName="Explore" categoryName="Audience Profiling" />
+      <ProductBreadcrumb productName="Explore" categoryName="Audience Analysis" />
       
       {/* Hero Section */}
       <section className="relative min-h-[50vh] flex items-center justify-center overflow-hidden pt-28">

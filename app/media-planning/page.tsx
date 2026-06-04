@@ -187,7 +187,7 @@ export default function MediaPlanningPage() {
           <p className="text-xl text-muted-foreground leading-relaxed">
             Plan completes the workflow. Audiences from{" "}
             <Link href="/audience-intelligence" className="text-[#F15E24] hover:underline">Discover</Link> and{" "}
-            <Link href="/audience-profiling" className="text-[#F15E24] hover:underline">Explore</Link> arrive ready to plan against — no translation, no rebuilt segments.
+            <Link href="/audience-analysis" className="text-[#F15E24] hover:underline">Explore</Link> arrive ready to plan against — no translation, no rebuilt segments.
           </p>
         </div>
       </section>

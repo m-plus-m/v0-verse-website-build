@@ -12,7 +12,7 @@ const solutions = [
     icon: Users,
     title: "Explore",
     description: "Profile and segment across 45+ data providers in one workspace instead of twelve browser tabs.",
-    href: "/audience-profiling",
+    href: "/audience-analysis",
   },
   {
     icon: LayoutGrid,
