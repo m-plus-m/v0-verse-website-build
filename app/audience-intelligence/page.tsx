@@ -62,7 +62,7 @@ const capabilities = [
   },
   {
     title: "AI query builder (Stanley)",
-    description: "10 hours of cross-tabbing in 10 minutes. Audience recommendations, proxy suggestions and psychographic summaries on demand.",
+    description: "Audience recommendations, proxy suggestions and psychographic summaries on demand.",
     icon: Zap,
   },
 ]
