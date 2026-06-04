@@ -42,7 +42,7 @@ const capabilities = [
   },
   {
     title: "90 psychographic traits",
-    description: "ML-derived lifestyle profiles — from \"Citizen Sleuths\" to \"Professional Tech Lovers\" — that surveys can't surface.",
+    description: "Behaviorally-derived lifestyle profiles — from \"Citizen Sleuths\" to \"Professional Tech Lovers\" — that surveys can't surface.",
     icon: Sparkles,
   },
   {
