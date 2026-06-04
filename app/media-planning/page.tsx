@@ -4,7 +4,7 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { ProductBreadcrumb } from "@/components/product-breadcrumb"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Users, Tv, Database, Globe, BarChart3, Leaf, Gauge, Layers } from "lucide-react"
+import { ArrowRight, Users, Tv, Database, Globe, BarChart3, Layers, Gauge, Sparkles, PlusCircle } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Plan | Cross-Channel Media Planning Across 70+ Media Types",
@@ -35,34 +35,39 @@ const differentiators = [
 
 const capabilities = [
   {
-    title: "Cross-media optimization",
-    description: "TV, digital, OOH, audio, print and emerging channels. Reach, frequency, impressions and GRPs in one view.",
+    title: "Flexible media modeling",
+    description: "Model cross-channel media mixes with or without syndicated survey subscriptions.",
+    icon: Database,
+  },
+  {
+    title: "Dynamic reach curves",
+    description: "See how channels work together before budget is committed. Reach and duplication modeled automatically across the mix.",
+    icon: Gauge,
+  },
+  {
+    title: "Cross-channel planning",
+    description: "Reach, frequency and investment unified across 70+ touchpoints.",
     icon: Tv,
   },
   {
-    title: "70+ media types",
-    description: "More channel coverage than any other planning platform.",
+    title: "Multi-survey planning",
+    description: "Combine channels from multiple surveys into one unified reach view.",
     icon: Layers,
   },
   {
-    title: "46 countries",
-    description: "Local data, global methodology. One platform for regional and multi-market planning.",
-    icon: Globe,
-  },
-  {
-    title: "Scenario modeling",
-    description: "Test budget allocations and channel mixes before committing spend.",
+    title: "Scenario testing",
+    description: "Shift budgets. Test media mixes. Compare outcomes instantly.",
     icon: BarChart3,
   },
   {
-    title: "ESG integration",
-    description: "The only planning platform with ESG scores built into channel selection.",
-    icon: Leaf,
+    title: "Stanley planning intelligence",
+    description: "From audience to optimized media mix in seconds. Stanley recommends channels, shapes media briefs and accelerates planning decisions.",
+    icon: Sparkles,
   },
   {
-    title: "Single reach currency",
-    description: "One unified measurement across every data source. No more arguing about whose numbers are right.",
-    icon: Gauge,
+    title: "Custom channel creation",
+    description: "Create custom channels and planning scenarios around the campaign you need — not the limits of any data subscription.",
+    icon: PlusCircle,
   },
 ]
 
