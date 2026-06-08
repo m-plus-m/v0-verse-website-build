@@ -103,9 +103,28 @@ export default function AudienceAnalysisPage() {
               Faster.
             </span>
           </h1>
-          <p className="mt-6 text-lg text-muted-foreground max-w-3xl mx-auto">
-            Explore transforms fragmented research into clear, strategic audience intelligence through advanced segmentation, visual analytics and intuitive statistical exploration — eliminate the bottlenecks of traditional analysis workflows. Advanced analytics. Without the complexity trap.
-          </p>
+        </div>
+      </section>
+      
+      {/* Intro Section */}
+      <section className="border-t border-border/40">
+        <div className="mx-auto max-w-6xl px-6 py-12">
+          <div className="flex flex-col lg:flex-row items-center gap-10">
+            <div className="lg:w-1/2">
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Explore transforms fragmented research into clear, strategic audience intelligence through advanced segmentation, visual analytics and intuitive statistical exploration — eliminate the bottlenecks of traditional analysis workflows. Advanced analytics. Without the complexity trap.
+              </p>
+            </div>
+            <div className="lg:w-1/2">
+              <Image
+                src="/images/explore-data-scale.png"
+                alt="Explore data scale — 45+ countries, 20 years of global surveys, 32 global data partnerships and 700 data sets loaded annually visualized with audience charts"
+                width={700}
+                height={530}
+                className="w-full"
+              />
+            </div>
+          </div>
         </div>
       </section>
       
