@@ -169,14 +169,27 @@ export default function MediaPlanningPage() {
           <div className="absolute top-1/2 right-1/3 -translate-x-1/2 -translate-y-1/2 h-[350px] w-[350px] rounded-full bg-[#C52F86]/15 blur-[80px]" />
         </div>
         
-        <div className="relative z-10 mx-auto max-w-4xl px-6">
+        <div className="relative z-10 mx-auto max-w-6xl px-6">
           <h2 className="text-3xl font-bold text-foreground mb-8">
             Already Using Other Planning Tools?
           </h2>
-          <div className="rounded-2xl border border-border/40 bg-card/50 p-6">
-            <p className="text-muted-foreground leading-relaxed">
-              Traditional planning tools were built for siloed media. Plan unifies online and offline channels into one currency view, making reach, frequency and duplication easier to measure across the entire media mix, with or without a data subscription.
-            </p>
+          <div className="flex flex-col lg:flex-row lg:items-center gap-10">
+            <div className="lg:w-1/2">
+              <Image
+                src="/images/plan-reach-curves.png"
+                alt="Plan reach curves modeled across no survey, one survey and multiple surveys, showing audience reach climbing toward 70% across channels"
+                width={700}
+                height={650}
+                className="w-full"
+              />
+            </div>
+            <div className="lg:w-1/2">
+              <div className="rounded-2xl border border-border/40 bg-card/50 p-6">
+                <p className="text-muted-foreground leading-relaxed">
+                  Traditional planning tools were built for siloed media. Plan unifies online and offline channels into one currency view, making reach, frequency and duplication easier to measure across the entire media mix, with or without a data subscription.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
