@@ -102,13 +102,19 @@ export default function MediaPlanningPage() {
         
         <div className="relative z-10 mx-auto max-w-4xl px-6 text-center py-20">
           <h1 className="text-balance text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl font-[family-name:var(--font-display)] lowercase">
-            plan across every channel{" "}
+            Hundreds of audiences. 70+ channels.{" "}
             <span className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] bg-clip-text text-transparent">
-              with one audience.
+              Zero silos.
             </span>
           </h1>
-          <p className="mt-6 text-lg text-muted-foreground max-w-3xl mx-auto">
-            Most planning tools make you rebuild your audience from scratch. Plan uses the segments your team already built — so the audience you researched is the audience you reach.
+        </div>
+      </section>
+      
+      {/* Intro Section */}
+      <section className="border-t border-border/40">
+        <div className="mx-auto max-w-4xl px-6 py-12 text-center">
+          <p className="text-lg text-muted-foreground leading-relaxed">
+            Plan brings fragmented media planning into one optimization workflow, helping teams model reach, compare scenarios and optimize cross-channel media mixes in seconds.
           </p>
         </div>
       </section>
