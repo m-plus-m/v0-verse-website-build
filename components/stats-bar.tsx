@@ -78,11 +78,14 @@ export function StatsBar() {
     <section className="border-y border-border/40 bg-card/30">
       <div className="mx-auto max-w-5xl px-6 py-8">
         <div className="flex flex-col items-center justify-center gap-8 sm:flex-row sm:gap-16">
-          <AnimatedStat value={stats[0].value} label={stats[0].label} />
-          <div className="hidden sm:block h-8 w-px bg-border/60" />
-          <AnimatedStat value={stats[1].value} label={stats[1].label} />
-          <div className="hidden sm:block h-8 w-px bg-border/60" />
-          <AnimatedStat value={stats[2].value} label={stats[2].label} />
+          {stats.map((stat, index) => (
+            <div key={stat.label} className="flex items-center gap-8">
+              <AnimatedStat value={stat.value} label={stat.label} />
+              {index < stats.length - 1 && (
+                <div className="hidden sm:block h-8 w-px bg-border/60" />
+              )}
+            </div>
+          ))}
         </div>
       </div>
     </section>

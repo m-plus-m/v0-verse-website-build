@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 
-const phrases = ["discover with", "plan with", "launch with", ""]
+const phrases = ["discover with", "explore with", "plan with", ""]
 const HOLD_DURATION = 2000
 const FADE_DURATION = 600
 
