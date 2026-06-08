@@ -117,10 +117,10 @@ export default function MediaPlanningPage() {
           <div className="flex flex-col lg:flex-row items-center gap-10">
             <div className="lg:w-1/2">
               <Image
-                src="/images/plan-reach-curves.png"
-                alt="Plan reach curves modeled across no survey, one survey and multiple surveys, showing audience reach climbing toward 70% across channels"
+                src="/images/plan-channels-orbit.png"
+                alt="One audience reachable across 70+ channels including TV, audio, radio, print, OOH, mobile, web, email and streaming"
                 width={700}
-                height={650}
+                height={700}
                 className="w-full"
               />
             </div>
