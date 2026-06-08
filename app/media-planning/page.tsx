@@ -8,10 +8,10 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight, Users, Tv, Database, Globe, BarChart3, Layers, Gauge, Sparkles, PlusCircle } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Plan | Cross-Channel Media Planning Across 70+ Media Types",
+  title: "Plan | Cross-Channel Media Planning & Media Mix Optimization",
   description: "Plan uses the segments your team already built — so the audience you researched is the audience you reach. 70+ media types in 46 countries.",
   openGraph: {
-    title: "Plan | Cross-Channel Media Planning Across 70+ Media Types",
+    title: "Plan | Cross-Channel Media Planning & Media Mix Optimization",
     description: "Plan uses the segments your team already built — so the audience you researched is the audience you reach. 70+ media types in 46 countries.",
   },
 }
