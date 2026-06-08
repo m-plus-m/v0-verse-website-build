@@ -1,5 +1,6 @@
 import { Metadata } from "next"
 import Link from "next/link"
+import Image from "next/image"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { ProductBreadcrumb } from "@/components/product-breadcrumb"
@@ -112,10 +113,23 @@ export default function MediaPlanningPage() {
       
       {/* Intro Section */}
       <section className="border-t border-border/40">
-        <div className="mx-auto max-w-4xl px-6 py-12 text-center">
-          <p className="text-lg text-muted-foreground leading-relaxed">
-            Plan brings fragmented media planning into one optimization workflow, helping teams model reach, compare scenarios and optimize cross-channel media mixes in seconds.
-          </p>
+        <div className="mx-auto max-w-6xl px-6 py-12">
+          <div className="flex flex-col lg:flex-row items-center gap-10">
+            <div className="lg:w-1/2">
+              <Image
+                src="/images/plan-reach-curves.png"
+                alt="Plan reach curves modeled across no survey, one survey and multiple surveys, showing audience reach climbing toward 70% across channels"
+                width={700}
+                height={650}
+                className="w-full"
+              />
+            </div>
+            <div className="lg:w-1/2">
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Plan brings fragmented media planning into one optimization workflow, helping teams model reach, compare scenarios and optimize cross-channel media mixes in seconds.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
       
