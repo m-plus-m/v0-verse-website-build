@@ -1,6 +1,5 @@
 import { Metadata } from "next"
 import Link from "next/link"
-import Image from "next/image"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { ProductBreadcrumb } from "@/components/product-breadcrumb"
@@ -103,28 +102,9 @@ export default function AudienceAnalysisPage() {
               Faster.
             </span>
           </h1>
-        </div>
-      </section>
-      
-      {/* Intro Section */}
-      <section className="border-t border-border/40">
-        <div className="mx-auto max-w-6xl px-6 py-12">
-          <div className="flex flex-col lg:flex-row items-center gap-10">
-            <div className="lg:w-1/2">
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Explore transforms fragmented research into clear, strategic audience intelligence through advanced segmentation, visual analytics and intuitive statistical exploration — eliminate the bottlenecks of traditional analysis workflows. Advanced analytics. Without the complexity trap.
-              </p>
-            </div>
-            <div className="lg:w-1/2">
-              <Image
-                src="/images/explore-data-scale.png"
-                alt="Explore data scale — 45+ countries, 20 years of global surveys, 32 global data partnerships and 700 data sets loaded annually visualized with audience charts"
-                width={700}
-                height={530}
-                className="w-full"
-              />
-            </div>
-          </div>
+          <p className="mt-6 text-lg text-muted-foreground max-w-3xl mx-auto">
+            Explore transforms fragmented research into clear, strategic audience intelligence through advanced segmentation, visual analytics and intuitive statistical exploration — eliminate the bottlenecks of traditional analysis workflows. Advanced analytics. Without the complexity trap.
+          </p>
         </div>
       </section>
       
@@ -164,27 +144,14 @@ export default function AudienceAnalysisPage() {
           <div className="absolute top-1/2 right-1/3 -translate-x-1/2 -translate-y-1/2 h-[350px] w-[350px] rounded-full bg-[#C52F86]/15 blur-[80px]" />
         </div>
         
-        <div className="relative z-10 mx-auto max-w-6xl px-6">
+        <div className="relative z-10 mx-auto max-w-4xl px-6">
           <h2 className="text-3xl font-bold text-foreground mb-8">
             Already Working Directly in Provider Platforms?
           </h2>
-          <div className="flex flex-col lg:flex-row lg:items-center gap-10">
-            <div className="lg:w-1/2">
-              <div className="rounded-2xl border border-border/40 bg-card/50 p-6">
-                <p className="text-muted-foreground leading-relaxed">
-                  GWI and MRI Simmons are great data sources. Explore lets you look across all of them at once, fuse first-party data with syndicated research, and run statistical analysis no single provider&apos;s interface supports. And the segments you build transfer directly into Plan — no rework.
-                </p>
-              </div>
-            </div>
-            <div className="lg:w-1/2">
-              <Image
-                src="/images/explore-data-providers.png"
-                alt="Explore at the center of leading research and measurement providers including MRI Simmons, Kantar, Nielsen, GWI, Ipsos, YouGov, comscore, Barb and more"
-                width={600}
-                height={600}
-                className="w-full max-w-md mx-auto"
-              />
-            </div>
+          <div className="rounded-2xl border border-border/40 bg-card/50 p-6">
+            <p className="text-muted-foreground leading-relaxed">
+              GWI and MRI Simmons are great data sources. Explore lets you look across all of them at once, fuse first-party data with syndicated research, and run statistical analysis no single provider&apos;s interface supports. And the segments you build transfer directly into Plan — no rework.
+            </p>
           </div>
         </div>
       </section>
