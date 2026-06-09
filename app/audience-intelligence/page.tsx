@@ -173,20 +173,31 @@ export default function AudienceIntelligencePage() {
           <div className="absolute top-1/2 right-1/3 -translate-x-1/2 -translate-y-1/2 h-[350px] w-[350px] rounded-full bg-[#C52F86]/15 blur-[80px]" />
         </div>
         
-        <div className="relative z-10 mx-auto max-w-4xl px-6">
+        <div className="relative z-10 mx-auto max-w-6xl px-6">
           <h2 className="text-3xl font-bold text-foreground mb-8">
             Already Using Research or Social Tools?
           </h2>
-          <div className="space-y-6">
-            <div className="rounded-2xl border border-border/40 bg-card/50 p-6">
-              <p className="text-muted-foreground leading-relaxed">
-                <span className="font-semibold text-foreground">If you use MRI Simmons, GWI or Kantar:</span>{" "}Discover doesn&apos;t replace them, it supercharges them. Surveys tell you they buy Tide. Discover tells you why — they&apos;re sustainably minded parents who follow eco-influencers and engage in parenting communities.
-              </p>
+          <div className="flex flex-col lg:flex-row lg:items-center gap-10">
+            <div className="space-y-6 lg:w-1/2">
+              <div className="rounded-2xl border border-border/40 bg-card/50 p-6">
+                <p className="text-muted-foreground leading-relaxed">
+                  <span className="font-semibold text-foreground">If you use MRI Simmons, GWI or Kantar:</span>{" "}Discover doesn&apos;t replace them, it supercharges them. Surveys tell you they buy Tide. Discover tells you why — they&apos;re sustainably minded parents who follow eco-influencers and engage in parenting communities.
+                </p>
+              </div>
+              <div className="rounded-2xl border border-border/40 bg-card/50 p-6">
+                <p className="text-muted-foreground leading-relaxed">
+                  <span className="font-semibold text-foreground">If you use social listening tools:</span> those tools track what people say. Discover tells you who they are, why they act, and where to find them — grounded in census-weighted panel data, not platform-dependent social graphs.
+                </p>
+              </div>
             </div>
-            <div className="rounded-2xl border border-border/40 bg-card/50 p-6">
-              <p className="text-muted-foreground leading-relaxed">
-                <span className="font-semibold text-foreground">If you use social listening tools:</span> those tools track what people say. Discover tells you who they are, why they act, and where to find them — grounded in census-weighted panel data, not platform-dependent social graphs.
-              </p>
+            <div className="lg:w-1/2">
+              <Image
+                src="/images/discover-data-sources.png"
+                alt="Discover at the center of leading research and social data sources including MRI Simmons, Kantar, GWI, Instagram, TikTok, Facebook and more"
+                width={600}
+                height={620}
+                className="w-full max-w-md mx-auto"
+              />
             </div>
           </div>
         </div>
