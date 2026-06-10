@@ -18,18 +18,18 @@ export const metadata: Metadata = {
 
 const differentiators = [
   {
-    title: "One workspace, not twelve",
-    description: "50+ data providers in a single platform. No toggling, no reconciling formats, no manual merging.",
+    title: "Complexity in. Clarity out.",
+    description: "Explore transforms complex datasets, fragmented cross-tabs and overwhelming research outputs into audience intelligence teams can actually use.",
     icon: Layers,
   },
   {
-    title: "Advanced analytics without coding",
-    description: "Factor analysis, clustering, correspondence analysis — one click. No data science team required.",
+    title: "Advanced analytics without the friction",
+    description: "Clustering, segmentation and statistical exploration no longer need specialist analysts or weeks of manual work. Explore simplifies the path from question to insight.",
     icon: LineChart,
   },
   {
-    title: "Instant storytelling",
-    description: "Custom visualizations, heatmaps and positioning maps in under 10 seconds. Built for stakeholder presentations, not analyst spreadsheets.",
+    title: "Visualization built for understanding",
+    description: "Heatmaps, dynamic charting and visual audience analysis surface patterns instantly. Complex data becomes easier to interpret, share and act on.",
     icon: Presentation,
   },
 ]
