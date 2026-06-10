@@ -5,7 +5,7 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { ProductBreadcrumb } from "@/components/product-breadcrumb"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Layers, LineChart, Presentation, Database, Upload, Target, BarChart3, PieChart } from "lucide-react"
+import { ArrowRight, Layers, LineChart, Presentation, Database, Upload, BarChart3, Sparkles } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Explore | Audience Analysis, Market Segmentation & Cross Channel Intelligence",
@@ -36,34 +36,44 @@ const differentiators = [
 
 const capabilities = [
   {
-    title: "300+ research releases",
-    description: "Consumer, brand and media research from every major provider, searchable in seconds.",
-    icon: Database,
+    title: "Audience segmentation",
+    description: "Surface meaningful audience groups hidden inside complex datasets.",
+    icon: Layers,
   },
   {
-    title: "First-party data ingestion",
-    description: "Upload your own surveys and proprietary data. Combine with syndicated research, no coding.",
+    title: "Data ingestion to insight",
+    description: "Bring first-party and third-party research into one code-free workflow.",
     icon: Upload,
   },
   {
-    title: "Positioning maps",
-    description: "See where your brand sits relative to competitors at a glance.",
-    icon: Target,
+    title: "Instant visual storytelling",
+    description: "Turn complex research into heatmaps, comparisons and custom visuals in seconds. Patterns surface faster. Strategy gets sharper.",
+    icon: Presentation,
   },
   {
-    title: "One-click statistics",
-    description: "CHAID, cluster, correspondence and audience effects — all accessible without programming.",
+    title: "Global restech data hub",
+    description: "Access 300+ consumer, brand and media research releases from 50+ data providers globally, including MRI Simmons, GWI and Kantar, all in one data-neutral environment.",
+    icon: Database,
+  },
+  {
+    title: "Statistical exploration",
+    description: "Advanced analytics without the specialist dependency. Explore simplifies complex statistical workflows so more teams can move from data to direction faster.",
+    icon: LineChart,
+  },
+  {
+    title: "Advanced analytics. No coding needed.",
+    description: "Surface correlations, patterns and decision drivers with intuitive statistical tools that put deeper analysis in more hands.",
     icon: BarChart3,
   },
   {
-    title: "Custom visualizations",
-    description: "Charts and heatmaps in under 10 seconds.",
-    icon: PieChart,
+    title: "One-step segmentation to planning",
+    description: "Move saved audience groups directly from Explore into Plan, preserving audience logic, fidelity and structure from insight to activation.",
+    icon: ArrowRight,
   },
   {
-    title: "Direct segment transfer",
-    description: "Audiences move from Explore to Plan without duplication. The segment you profiled is the segment you plan against.",
-    icon: ArrowRight,
+    title: "AI query builder (Stanley)",
+    description: "Surface relevant variables, summarize audience findings and shape strategic narratives on demand.",
+    icon: Sparkles,
   },
 ]
 
