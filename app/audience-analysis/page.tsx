@@ -229,6 +229,22 @@ export default function AudienceAnalysisPage() {
         </div>
       </section>
       
+      {/* From Insight to Activation Section */}
+      <section className="border-t border-border/40">
+        <div className="mx-auto max-w-4xl px-6 py-20 text-center">
+          <p className="text-2xl font-semibold leading-relaxed text-foreground text-balance">
+            Audiences from Explore flow directly into{" "}
+            <Link
+              href="/media-planning"
+              className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] bg-clip-text text-transparent hover:opacity-80"
+            >
+              Plan
+            </Link>{" "}
+            for media planning and activation. The audience you built is the audience you optimize against.
+          </p>
+        </div>
+      </section>
+      
       {/* CTA Section */}
       <section className="border-t border-border/40 bg-gradient-to-b from-background to-[#2B2D42]/30">
         <div className="mx-auto max-w-3xl px-6 py-20 text-center">
