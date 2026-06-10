@@ -82,11 +82,11 @@ export function Header() {
               Book a Demo
             </Button>
           </Link>
-          <a href="https://telmarhelixa.com" target="_blank" rel="noopener noreferrer">
+          <Link href="/login">
             <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-foreground">
               Login
             </Button>
-          </a>
+          </Link>
         </div>
       </div>
     </header>
