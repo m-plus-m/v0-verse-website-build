@@ -166,13 +166,18 @@ export default function AudienceAnalysisPage() {
         
         <div className="relative z-10 mx-auto max-w-6xl px-6">
           <h2 className="text-3xl font-bold text-foreground mb-8">
-            Already Working Directly in Provider Platforms?
+            Already Using Consumer Research Tools?
           </h2>
           <div className="flex flex-col lg:flex-row lg:items-center gap-10">
-            <div className="lg:w-1/2">
+            <div className="lg:w-1/2 flex flex-col gap-6">
               <div className="rounded-2xl border border-border/40 bg-card/50 p-6">
                 <p className="text-muted-foreground leading-relaxed">
-                  GWI and MRI Simmons are great data sources. Explore lets you look across all of them at once, fuse first-party data with syndicated research, and run statistical analysis no single provider&apos;s interface supports. And the segments you build transfer directly into Plan — no rework.
+                  If you use MRI Simmons, GWI, Kantar or any of the 50+ data providers connected to TelmarHelixa, Explore helps you move beyond static cross-tabs and spreadsheet chaos. Faster segmentation. Clearer visualization. Audience intelligence at the speed strategy now moves.
+                </p>
+              </div>
+              <div className="rounded-2xl border border-border/40 bg-card/50 p-6">
+                <p className="text-muted-foreground leading-relaxed">
+                  If your teams still rely on manual cross-tabbing, Explore turns slow, fragmented analysis into clear audience intelligence. Less spreadsheet wrangling. More strategic clarity.
                 </p>
               </div>
             </div>
