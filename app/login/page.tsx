@@ -1,5 +1,6 @@
 import { Metadata } from "next"
 import Link from "next/link"
+import { Search, Users, LayoutGrid } from "lucide-react"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
@@ -15,6 +16,7 @@ export const metadata: Metadata = {
 
 const featuredProducts = [
   {
+    icon: Search,
     label: "Audience Intelligence",
     title: "Discover",
     description:
@@ -22,6 +24,7 @@ const featuredProducts = [
     loginUrl: "https://home.helixa.ai/login",
   },
   {
+    icon: Users,
     label: "Audience Analysis",
     title: "Explore",
     description:
@@ -29,6 +32,7 @@ const featuredProducts = [
     loginUrl: "https://explore.telmar.com/login",
   },
   {
+    icon: LayoutGrid,
     label: "Media Planning",
     title: "Plan",
     description:
@@ -71,10 +75,15 @@ export default function LoginPage() {
               >
                 {/* Gradient top accent */}
                 <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-[#F15E24] to-[#C52F86]" />
-                <p className="text-sm font-medium uppercase tracking-wide text-[#F15E24]">
+                <div className="flex items-center gap-3">
+                  <div className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-[#F15E24] to-[#C52F86]">
+                    <product.icon className="h-5 w-5 text-white" />
+                  </div>
+                  <h2 className="text-2xl font-bold text-foreground">{product.title}</h2>
+                </div>
+                <p className="mt-2 text-sm font-medium uppercase tracking-wide text-[#F15E24]">
                   {product.label}
                 </p>
-                <h2 className="mt-2 text-2xl font-bold text-foreground">{product.title}</h2>
                 <p className="mt-4 flex-1 text-muted-foreground leading-relaxed">
                   {product.description}
                 </p>
