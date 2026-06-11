@@ -29,8 +29,10 @@ export function DemoHero() {
           <span className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] bg-clip-text text-transparent">
             verse
           </span>
-          . start doing more than your headcount should allow
         </h1>
+        <p className="mt-4 text-balance text-2xl font-bold tracking-tight sm:text-3xl lg:text-4xl font-[family-name:var(--font-display)] lowercase text-foreground">
+          start doing more than your headcount should allow
+        </p>
       </div>
     </section>
   )
