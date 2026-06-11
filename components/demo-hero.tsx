@@ -31,9 +31,6 @@ export function DemoHero() {
           </span>
           . start doing more than your headcount should allow
         </h1>
-        <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-foreground/80">
-          See how teams use Discover, Explore and Plan to cover audience discovery, analysis and media planning in one contract.
-        </p>
       </div>
     </section>
   )
