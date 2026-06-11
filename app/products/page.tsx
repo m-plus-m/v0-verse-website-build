@@ -40,16 +40,19 @@ const productCards = [
     name: "Discover",
     description: "Real audiences from real behavior. Social, search, browsing and app signals — fused with gold-standard consumer research. Not AI guesswork.",
     href: "/audience-intelligence",
+    cta: "Audience Intelligence",
   },
   {
     name: "Explore",
     description: "50+ data providers in one workspace. Profile, segment and visualize without the tab-switching.",
     href: "/audience-analysis",
+    cta: "Audience Analysis",
   },
   {
     name: "Plan",
     description: "Cross-channel media planning across 70+ media types in 46 countries. The audience you researched is the audience you reach.",
     href: "/media-planning",
+    cta: "Media Planning",
   },
 ]
 
@@ -152,7 +155,7 @@ export default function ProductsPage() {
                   </p>
                   
                   <div className="mt-6 flex items-center text-[#F15E24] font-medium">
-                    Learn more <ArrowRight className="ml-2 h-4 w-4" />
+                    {product.cta} <ArrowRight className="ml-2 h-4 w-4" />
                   </div>
                 </div>
               </Link>
