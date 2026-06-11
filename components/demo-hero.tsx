@@ -25,11 +25,14 @@ export function DemoHero() {
       
       <div className="relative z-10 mx-auto max-w-5xl px-6 text-center py-16">
         <h1 className="text-balance text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl font-[family-name:var(--font-display)] lowercase text-foreground">
-          See the engines behind{" "}
+          meet{" "}
           <span className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] bg-clip-text text-transparent">
-            Verse
+            verse
           </span>
         </h1>
+        <p className="mt-4 text-balance text-2xl font-bold tracking-tight sm:text-3xl lg:text-4xl font-[family-name:var(--font-display)] lowercase text-foreground">
+          start doing more than your headcount should allow
+        </p>
       </div>
     </section>
   )

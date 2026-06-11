@@ -55,7 +55,7 @@ export function DemoForm() {
     <section className="py-20 px-6">
       <div className="mx-auto max-w-2xl">
         <p className="text-center text-lg text-muted-foreground mb-12 leading-relaxed">
-          Find out how teams are using Discover, Explore and Plan to get from audience insight to media plan faster — without stitching together five tools to get there.
+          See how teams use Discover, Explore and Plan to cover audience discovery, analysis and media planning in one contract.
         </p>
         
         <div 
