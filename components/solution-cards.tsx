@@ -28,8 +28,9 @@ export function SolutionCards() {
       <div className="mx-auto max-w-7xl px-6 py-20">
         <div className="grid gap-8 md:grid-cols-3">
           {solutions.map((solution) => (
-            <div
+            <Link
               key={solution.title}
+              href={solution.href}
               className="group relative rounded-2xl border border-border/40 bg-card/50 p-8 transition-all hover:border-[#F15E24]/40"
             >
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#F15E24]/0 to-[#C52F86]/0 opacity-0 group-hover:opacity-5 transition-opacity" />
@@ -38,16 +39,14 @@ export function SolutionCards() {
                 <div className="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-[#F15E24] to-[#C52F86]">
                   <solution.icon className="h-6 w-6 text-white" />
                 </div>
-                <h3 className="mb-3 text-xl font-semibold text-foreground">
-                  <Link href={solution.href} className="hover:text-[#F15E24] transition-colors">
-                    {solution.title}
-                  </Link>
+                <h3 className="mb-3 text-xl font-semibold text-foreground group-hover:text-[#F15E24] transition-colors">
+                  {solution.title}
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
                   {solution.description}
                 </p>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
