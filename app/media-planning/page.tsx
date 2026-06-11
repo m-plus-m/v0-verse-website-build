@@ -5,7 +5,7 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { ProductBreadcrumb } from "@/components/product-breadcrumb"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Users, Tv, Database, Globe, BarChart3, Layers, Gauge, Sparkles, PlusCircle } from "lucide-react"
+import { ArrowRight, Users, Tv, Database, Globe, BarChart3, Layers, Gauge, PlusCircle } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Plan | Cross-Channel Media Planning & Media Mix Optimization",
@@ -59,11 +59,6 @@ const capabilities = [
     title: "Scenario testing",
     description: "Shift budgets. Test media mixes. Compare outcomes instantly.",
     icon: BarChart3,
-  },
-  {
-    title: "Stanley planning intelligence",
-    description: "From audience to optimized media mix in seconds. Stanley recommends channels, shapes media briefs and accelerates planning decisions.",
-    icon: Sparkles,
   },
   {
     title: "Custom channel creation",
