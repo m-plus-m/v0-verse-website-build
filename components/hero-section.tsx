@@ -44,7 +44,7 @@ export function HeroSection() {
         </h1>
         
         <p className="mt-6 text-lg text-muted-foreground">
-          Audience insight, cross-media planning and activation — all from one trusted source.
+          Audience insight, cross-media planning and activation — all from one source.
         </p>
         
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
