@@ -7,10 +7,10 @@ import { ArrowRight } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Verse Products | Consumer Insights, Audience Analysis & Media Planning",
-  description: "Three engines, one workflow. Discover, Explore and Plan keep your audience fidelity from insights to plan and activation.",
+  description: "Audience intelligence, analysis and cross-media planning in one contract. The rigor of a specialist stack, without the stack. Built for teams expected to do more than their headcount should allow.",
   openGraph: {
     title: "Verse Products | Consumer Insights, Audience Analysis & Media Planning",
-    description: "Three engines, one workflow. Discover, Explore and Plan keep your audience fidelity from insights to plan and activation.",
+    description: "Audience intelligence, analysis and cross-media planning in one contract. The rigor of a specialist stack, without the stack. Built for teams expected to do more than their headcount should allow.",
   },
 }
 
@@ -40,16 +40,19 @@ const productCards = [
     name: "Discover",
     description: "Real audiences from real behavior. Social, search, browsing and app signals — fused with gold-standard consumer research. Not AI guesswork.",
     href: "/audience-intelligence",
+    cta: "Audience Intelligence",
   },
   {
     name: "Explore",
-    description: "50+ data providers in one workspace. Profile, segment and visualize without the tab-switching.",
+    description: "Analyze consumer, brand and media intelligence from multiple providers in one analytical environment.",
     href: "/audience-analysis",
+    cta: "Audience Analysis",
   },
   {
     name: "Plan",
     description: "Cross-channel media planning across 70+ media types in 46 countries. The audience you researched is the audience you reach.",
     href: "/media-planning",
+    cta: "Media Planning",
   },
 ]
 
@@ -89,7 +92,7 @@ export default function ProductsPage() {
             </span>
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto">
-            The only platform that keeps audiences at full definition from insight to plan. For pitches that win and campaigns that land.
+            The rigor of a specialist stack — audience discovery, analysis and media planning — without the stack. Built for teams expected to do more than their headcount should allow.
           </p>
         </div>
       </section>
@@ -152,7 +155,7 @@ export default function ProductsPage() {
                   </p>
                   
                   <div className="mt-6 flex items-center text-[#F15E24] font-medium">
-                    Learn more <ArrowRight className="ml-2 h-4 w-4" />
+                    {product.cta} <ArrowRight className="ml-2 h-4 w-4" />
                   </div>
                 </div>
               </Link>
@@ -171,9 +174,9 @@ export default function ProductsPage() {
         
         <div className="relative z-10 mx-auto max-w-5xl px-6 text-center">
           <h2 className="text-balance text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl text-foreground">
-            The audience your strategist builds is the audience your planner optimizes against.{" "}
+            Planning power for strategists. Audience depth, no data science degree required.{" "}
             <span className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] bg-clip-text text-transparent">
-              No lossy handoffs between tools.
+              One universe, built for teams doing more than their headcount should allow.
             </span>
           </h2>
         </div>
