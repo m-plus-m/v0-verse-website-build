@@ -11,7 +11,7 @@ const solutions = [
   {
     icon: Users,
     title: "Explore",
-    description: "Profile and segment across 45+ data providers in one workspace instead of twelve browser tabs.",
+    description: "Validate with syndicated behavioral and media intelligence ecosystems across 50+ global data partners.",
     href: "/audience-analysis",
   },
   {
