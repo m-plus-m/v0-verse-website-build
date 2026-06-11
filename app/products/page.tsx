@@ -7,10 +7,10 @@ import { ArrowRight } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Verse Products | Consumer Insights, Audience Analysis & Media Planning",
-  description: "Three engines, one workflow. Discover, Explore and Plan keep your audience fidelity from insights to plan and activation.",
+  description: "Audience intelligence, analysis and cross-media planning in one contract. The rigor of a specialist stack, without the stack. Built for lean teams expected to do more than their headcount should allow.",
   openGraph: {
     title: "Verse Products | Consumer Insights, Audience Analysis & Media Planning",
-    description: "Three engines, one workflow. Discover, Explore and Plan keep your audience fidelity from insights to plan and activation.",
+    description: "Audience intelligence, analysis and cross-media planning in one contract. The rigor of a specialist stack, without the stack. Built for lean teams expected to do more than their headcount should allow.",
   },
 }
 
