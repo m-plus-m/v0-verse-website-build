@@ -25,11 +25,15 @@ export function DemoHero() {
       
       <div className="relative z-10 mx-auto max-w-5xl px-6 text-center py-16">
         <h1 className="text-balance text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl font-[family-name:var(--font-display)] lowercase text-foreground">
-          See the engines behind{" "}
+          meet{" "}
           <span className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] bg-clip-text text-transparent">
-            Verse
+            verse
           </span>
+          . start doing more than your headcount should allow
         </h1>
+        <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-foreground/80">
+          See how teams use Discover, Explore and Plan to cover audience discovery, analysis and media planning in one contract.
+        </p>
       </div>
     </section>
   )
