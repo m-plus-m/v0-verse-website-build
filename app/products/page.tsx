@@ -171,9 +171,9 @@ export default function ProductsPage() {
         
         <div className="relative z-10 mx-auto max-w-5xl px-6 text-center">
           <h2 className="text-balance text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl text-foreground">
-            The audience your strategist builds is the audience your planner optimizes against.{" "}
+            Planning power for strategists. Audience depth, no data science degree required.{" "}
             <span className="bg-gradient-to-r from-[#F15E24] to-[#C52F86] bg-clip-text text-transparent">
-              No lossy handoffs between tools.
+              One universe, built for teams doing more than their headcount should allow.
             </span>
           </h2>
         </div>
