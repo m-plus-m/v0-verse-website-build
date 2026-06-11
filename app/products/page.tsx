@@ -44,7 +44,7 @@ const productCards = [
   },
   {
     name: "Explore",
-    description: "50+ data providers in one workspace. Profile, segment and visualize without the tab-switching.",
+    description: "Analyze consumer, brand and media intelligence from multiple providers in one analytical environment.",
     href: "/audience-analysis",
     cta: "Audience Analysis",
   },
