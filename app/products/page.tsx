@@ -89,7 +89,7 @@ export default function ProductsPage() {
             </span>
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto">
-            The only platform that keeps audiences at full definition from insight to plan. For pitches that win and campaigns that land.
+            The rigor of a specialist stack — audience discovery, analysis and media planning — without the stack. Built for lean teams expected to do more than their headcount should allow.
           </p>
         </div>
       </section>
