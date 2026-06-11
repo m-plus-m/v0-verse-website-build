@@ -7,10 +7,10 @@ import { ArrowRight } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Verse Products | Consumer Insights, Audience Analysis & Media Planning",
-  description: "Audience intelligence, analysis and cross-media planning in one contract. The rigor of a specialist stack, without the stack. Built for lean teams expected to do more than their headcount should allow.",
+  description: "Audience intelligence, analysis and cross-media planning in one contract. The rigor of a specialist stack, without the stack. Built for teams expected to do more than their headcount should allow.",
   openGraph: {
     title: "Verse Products | Consumer Insights, Audience Analysis & Media Planning",
-    description: "Audience intelligence, analysis and cross-media planning in one contract. The rigor of a specialist stack, without the stack. Built for lean teams expected to do more than their headcount should allow.",
+    description: "Audience intelligence, analysis and cross-media planning in one contract. The rigor of a specialist stack, without the stack. Built for teams expected to do more than their headcount should allow.",
   },
 }
 
@@ -89,7 +89,7 @@ export default function ProductsPage() {
             </span>
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto">
-            Audience intelligence, analysis and media planning in one contract. The rigor of a specialist stack, without the stack. Built for lean teams expected to do more than their headcount should allow.
+            Audience intelligence, analysis and media planning in one contract. The rigor of a specialist stack, without the stack. Built for teams expected to do more than their headcount should allow.
           </p>
         </div>
       </section>
