@@ -89,7 +89,7 @@ export default function ProductsPage() {
             </span>
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto">
-            Audience intelligence, analysis and media planning in one contract. The rigor of a specialist stack, without the stack. Built for teams expected to do more than their headcount should allow.
+            The rigor of a specialist stack — audience discovery, analysis and media planning — without the stack. Built for teams expected to do more than their headcount should allow.
           </p>
         </div>
       </section>
