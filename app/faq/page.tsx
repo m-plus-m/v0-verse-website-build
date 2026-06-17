@@ -115,7 +115,7 @@ const faqSections = [
       },
       {
         q: "How can Verse help with cross-channel media planning?",
-        a: "Plan lets you build campaigns that optimize reach, frequency, impressions and GRPs across 70+ media types and 46 countries. Audience segments flow directly from Discover and Explore into Plan, so you're planning against the same audience definition your insights team built — no translation errors, no rebuilding."
+        a: "Plan lets you build campaigns that optimize reach, frequency, impressions and GRPs across 70+ media types and 46 countries. Audience segments flow directly from Explore into Plan, so you're planning against the same audience definition to maximize audience fidelity."
       },
       {
         q: "How do I build better audiences for media planning?",
