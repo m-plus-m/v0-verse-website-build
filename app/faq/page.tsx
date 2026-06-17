@@ -126,10 +126,6 @@ const faqSections = [
         a: "Plan lets you build campaigns that optimize reach, frequency, impressions and GRPs across 70+ media types and 46 countries. Audience segments flow directly from Explore into Plan, so you're planning against the same audience definition to maximize audience fidelity."
       },
       {
-        q: "How do I build better audiences for media planning?",
-        a: "Combine Discover's real-time social and behavioral signals with Explore's deep profiling across 50+ data providers. Build dynamic, addressable audiences that reflect how consumers actually behave, then push them directly into Plan for activation."
-      },
-      {
         q: "How can Verse help align my marketing and insights teams?",
         a: "Verse gives every team — insights, media, creative — access to the same audience definition, built once and used across the workflow. No more version-of-the-truth debates or re-building segments in different tools for different teams."
       },
