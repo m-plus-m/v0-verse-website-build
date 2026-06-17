@@ -94,11 +94,19 @@ const faqSections = [
     questions: [
       {
         q: "What is Plan?",
-        a: "Plan is a cross-channel media planning solution that determines optimal reach, frequency and channel mix across 70+ media types in 46 countries. It combines consumer, channel and measurement data using proprietary methodology to produce unified cross-media plans spanning TV, digital, OOH, audio, print and emerging channels. Plan is the only media planning platform to incorporate ESG scores into planning optimization."
+        a: "Plan is a cross-channel media planning solution that determines optimal reach, frequency and channel mix across 70+ media types in 46 countries. It combines consumer, channel and measurement data using proprietary methodology to produce unified cross-media plans spanning TV, digital, OOH, audio, print and emerging channels."
       },
       {
         q: "What data sources can I use with Plan?",
         a: "Plan is data-neutral — it works across any data source and integrates both digital and traditional media channels. This flexibility lets you design campaigns tailored to your strategy without being locked into a single platform or provider."
+      },
+      {
+        q: "How can Plan help me achieve the highest ROAS?",
+        a: "Advanced proprietary algorithms optimize the unique reach-building characteristics of digital and traditional media, allowing you to create efficient cross-media plans that deliver the highest possible ROAS."
+      },
+      {
+        q: "Does plan incorporate ESG scores?",
+        a: "Plan is the only media planning platform to incorporate ESG scores into planning optimization. Factor ESG data into your media campaigns to align your brand values, financial objectives and campaign goals."
       },
     ]
   },
