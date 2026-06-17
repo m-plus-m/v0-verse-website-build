@@ -5,7 +5,7 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { ProductBreadcrumb } from "@/components/product-breadcrumb"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Layers, LineChart, Presentation, Database, Upload, BarChart3, Sparkles } from "lucide-react"
+import { ArrowRight, Layers, LineChart, Presentation, Database, Upload } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Explore | Audience Analysis, Market Segmentation & Cross Channel Intelligence",
@@ -56,24 +56,14 @@ const capabilities = [
     icon: Database,
   },
   {
-    title: "Statistical exploration",
-    description: "Advanced analytics without the specialist dependency. Explore simplifies complex statistical workflows so more teams can move from data to direction faster.",
-    icon: LineChart,
-  },
-  {
     title: "Advanced analytics. No coding needed.",
-    description: "Surface correlations, patterns and decision drivers with intuitive statistical tools that put deeper analysis in more hands.",
-    icon: BarChart3,
+    description: "Explore simplifies complex statistical workflows to put deeper analysis in more hands.",
+    icon: LineChart,
   },
   {
     title: "One-step segmentation to planning",
     description: "Move saved audience groups directly from Explore into Plan, preserving audience logic, fidelity and structure from insight to activation.",
     icon: ArrowRight,
-  },
-  {
-    title: "AI query builder (Stanley)",
-    description: "Surface relevant variables, summarize audience findings and shape strategic narratives on demand.",
-    icon: Sparkles,
   },
 ]
 
