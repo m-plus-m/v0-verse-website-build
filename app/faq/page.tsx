@@ -73,7 +73,19 @@ const faqSections = [
     questions: [
       {
         q: "What is Explore?",
-        a: "Explore is an enterprise data mining platform that enables deep audience profiling across 50+ data providers in a single workspace. You can run advanced statistical analysis — factor analysis, clustering, correspondence analysis — without coding. Explore accesses over 300 consumer, brand and media research releases and generates custom visualizations in seconds. Audience segments transfer directly into Plan for media planning."
+        a: "Verse Explore is an enterprise-grade audience insights and data analytics platform used by marketers, media agencies, and research teams to analyze large-scale consumer and media data."
+      },
+      {
+        q: "What data providers work with Explore?",
+        a: "Explore enables deep audience segmentation and analysis across 300 consumer, brand and media research releases from 50+ data providers including GWI, YouGov, IPA, MRI Simmons and Nielsen."
+      },
+      {
+        q: "Is coding required?",
+        a: "Nope. You can run advanced statistical analysis — factor analysis, clustering, correspondence analysis — without coding. Explore accesses and generates custom visualizations in seconds."
+      },
+      {
+        q: "How can I activate audience segments from Explore?",
+        a: "Audience segments transfer directly into Plan for media planning."
       },
     ]
   },
@@ -82,11 +94,19 @@ const faqSections = [
     questions: [
       {
         q: "What is Plan?",
-        a: "Plan is a cross-channel media planning solution that determines optimal reach, frequency and channel mix across 70+ media types in 46 countries. It combines consumer, channel and measurement data using proprietary methodology to produce unified cross-media plans spanning TV, digital, OOH, audio, print and emerging channels. Plan is the only media planning platform to incorporate ESG scores into planning optimization."
+        a: "Plan is a cross-channel media planning solution that determines optimal reach, frequency and channel mix across 70+ media types in 46 countries. It combines consumer, channel and measurement data using proprietary methodology to produce unified cross-media plans spanning TV, digital, OOH, audio, print and emerging channels."
       },
       {
         q: "What data sources can I use with Plan?",
         a: "Plan is data-neutral — it works across any data source and integrates both digital and traditional media channels. This flexibility lets you design campaigns tailored to your strategy without being locked into a single platform or provider."
+      },
+      {
+        q: "How can Plan help me achieve the highest ROAS?",
+        a: "Advanced proprietary algorithms optimize the unique reach-building characteristics of digital and traditional media, allowing you to create efficient cross-media plans that deliver the highest possible ROAS."
+      },
+      {
+        q: "Does plan incorporate ESG scores?",
+        a: "Plan is the only media planning platform to incorporate ESG scores into planning optimization. Factor ESG data into your media campaigns to align your brand values, financial objectives and campaign goals."
       },
     ]
   },
@@ -103,11 +123,7 @@ const faqSections = [
       },
       {
         q: "How can Verse help with cross-channel media planning?",
-        a: "Plan lets you build campaigns that optimize reach, frequency, impressions and GRPs across 70+ media types and 46 countries. Audience segments flow directly from Discover and Explore into Plan, so you're planning against the same audience definition your insights team built — no translation errors, no rebuilding."
-      },
-      {
-        q: "How do I build better audiences for media planning?",
-        a: "Combine Discover's real-time social and behavioral signals with Explore's deep profiling across 50+ data providers. Build dynamic, addressable audiences that reflect how consumers actually behave, then push them directly into Plan for activation."
+        a: "Plan lets you build campaigns that optimize reach, frequency, impressions and GRPs across 70+ media types and 46 countries. Audience segments flow directly from Explore into Plan, so you're planning against the same audience definition to maximize audience fidelity."
       },
       {
         q: "How can Verse help align my marketing and insights teams?",
