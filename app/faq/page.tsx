@@ -73,7 +73,19 @@ const faqSections = [
     questions: [
       {
         q: "What is Explore?",
-        a: "Explore is an enterprise data mining platform that enables deep audience profiling across 50+ data providers in a single workspace. You can run advanced statistical analysis — factor analysis, clustering, correspondence analysis — without coding. Explore accesses over 300 consumer, brand and media research releases and generates custom visualizations in seconds. Audience segments transfer directly into Plan for media planning."
+        a: "Verse Explore is an enterprise-grade audience insights and data analytics platform used by marketers, media agencies, and research teams to analyze large-scale consumer and media data."
+      },
+      {
+        q: "What data providers work with Explore?",
+        a: "Explore enables deep audience segmentation and analysis across 300 consumer, brand and media research releases from 50+ data providers including GWI, YouGov, IPA, MRI Simmons and Nielsen."
+      },
+      {
+        q: "Is coding required?",
+        a: "Nope. You can run advanced statistical analysis — factor analysis, clustering, correspondence analysis — without coding. Explore accesses and generates custom visualizations in seconds."
+      },
+      {
+        q: "How can I activate audience segments from Explore?",
+        a: "Audience segments transfer directly into Plan for media planning."
       },
     ]
   },
