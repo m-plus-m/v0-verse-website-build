@@ -16,7 +16,7 @@ export function Footer() {
           
           <div className="flex items-center gap-6 text-sm text-muted-foreground">
             <Link 
-              href="https://www.linkedin.com/company/telmargroupinc/" 
+              href="https://www.linkedin.com/company/verse-by-th" 
               className="hover:text-accent transition-colors inline-flex items-center gap-1.5"
               aria-label="LinkedIn"
               target="_blank"
