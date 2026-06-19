@@ -31,6 +31,9 @@ export function EarlyAccessHero() {
             Verse AI.
           </span>
         </h1>
+        <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-foreground/80">
+          Audience discovery to media plan and activation — in one AI-powered workflow.
+        </p>
       </div>
     </section>
   )

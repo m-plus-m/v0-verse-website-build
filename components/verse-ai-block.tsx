@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { Sparkles } from "lucide-react"
+import Link from "next/link"
 
 export function VerseAIBlock() {
   return (
@@ -29,11 +30,12 @@ export function VerseAIBlock() {
         </p>
         
         <Button 
+          asChild
           size="lg" 
           variant="outline" 
           className="border-[#F15E24]/60 text-foreground hover:bg-[#F15E24]/10 hover:border-[#F15E24]"
         >
-          Get Early Access
+          <Link href="/early-access">Get Early Access</Link>
         </Button>
       </div>
     </section>

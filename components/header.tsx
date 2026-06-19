@@ -68,6 +68,13 @@ export function Header() {
                     <span className="font-medium text-foreground">Plan</span>
                     <span className="text-muted-foreground"> / Media Planning</span>
                   </Link>
+                  <Link 
+                    href="/early-access" 
+                    className="block px-4 py-2.5 text-sm text-muted-foreground hover:text-foreground hover:bg-accent/10 transition-colors"
+                  >
+                    <span className="font-medium text-foreground">Verse AI</span>
+                    <span className="text-muted-foreground"> / Early Access</span>
+                  </Link>
                 </div>
               </div>
             )}
