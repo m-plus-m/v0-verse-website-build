@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Search, Users, LayoutGrid } from "lucide-react"
 
 const solutions = [
@@ -48,6 +49,16 @@ export function SolutionCards() {
               </div>
             </Link>
           ))}
+        </div>
+
+        <div className="mt-16 flex justify-center">
+          <Image
+            src="/images/verse-workflow-diagram.png"
+            alt="Verse workflow diagram showing how Discover, Explore and Plan connect — surrounding brands, influencers, geotargeting, datasets, segments, frequency, mediamix, reach and trends around a central audience."
+            width={1000}
+            height={900}
+            className="h-auto w-full max-w-3xl"
+          />
         </div>
       </div>
     </section>
