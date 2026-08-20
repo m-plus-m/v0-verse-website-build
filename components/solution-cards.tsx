@@ -58,7 +58,7 @@ export function SolutionCards() {
             alt="Verse workflow diagram showing how Discover, Explore and Plan connect — surrounding brands, influencers, geotargeting, datasets, segments, frequency, mediamix, reach and trends around a central audience."
             width={1500}
             height={1000}
-            className="h-auto w-full max-w-3xl"
+            className="h-auto w-full max-w-3xl rounded-2xl"
           />
         </ScrollFadeIn>
       </div>
