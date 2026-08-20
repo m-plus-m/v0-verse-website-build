@@ -13,8 +13,8 @@ export function VerseAIBlock() {
       <div className="absolute top-1/2 right-1/2 h-[250px] w-[250px] rounded-full bg-[#2EC4B6]/10 blur-[70px]" />
       
       <div className="relative mx-auto max-w-4xl px-6 py-20 text-center">
-        <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-[#F15E24]/40 bg-[#F15E24]/10 px-4 py-1.5 text-sm font-medium text-[#F15E24]">
-          <Sparkles className="h-3.5 w-3.5" />
+        <div className="mb-6 inline-flex items-center gap-2.5 rounded-full border border-[#F15E24]/40 bg-[#F15E24]/10 px-6 py-2.5 text-base font-medium text-[#F15E24]">
+          <Sparkles className="h-5 w-5" />
           Coming Soon
         </div>
         

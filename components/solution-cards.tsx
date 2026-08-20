@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Search, Users, LayoutGrid } from "lucide-react"
+import { ScrollFadeIn } from "@/components/scroll-fade-in"
 
 const solutions = [
   {
@@ -26,7 +27,7 @@ const solutions = [
 export function SolutionCards() {
   return (
     <section className="border-t border-border/40">
-      <div className="mx-auto max-w-7xl px-6 py-20">
+      <div className="mx-auto max-w-7xl px-6 pt-20 pb-12">
         <div className="grid gap-8 md:grid-cols-3">
           {solutions.map((solution) => (
             <Link
@@ -51,15 +52,15 @@ export function SolutionCards() {
           ))}
         </div>
 
-        <div className="mt-16 flex justify-center">
+        <ScrollFadeIn className="mt-16 flex justify-center">
           <Image
-            src="/images/verse-workflow-diagram.png"
+            src="/images/verse-workflow-diagram-v2.png"
             alt="Verse workflow diagram showing how Discover, Explore and Plan connect — surrounding brands, influencers, geotargeting, datasets, segments, frequency, mediamix, reach and trends around a central audience."
-            width={1000}
-            height={900}
-            className="h-auto w-full max-w-3xl"
+            width={1500}
+            height={1000}
+            className="h-auto w-full max-w-3xl rounded-2xl transition-transform duration-500 ease-out hover:scale-[1.03]"
           />
-        </div>
+        </ScrollFadeIn>
       </div>
     </section>
   )
