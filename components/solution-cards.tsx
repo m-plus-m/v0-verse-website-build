@@ -54,11 +54,11 @@ export function SolutionCards() {
 
         <ScrollFadeIn className="mt-16 flex justify-center">
           <Image
-            src="/images/verse-workflow-diagram.png"
+            src="/images/verse-workflow-diagram-v2.png"
             alt="Verse workflow diagram showing how Discover, Explore and Plan connect — surrounding brands, influencers, geotargeting, datasets, segments, frequency, mediamix, reach and trends around a central audience."
-            width={1000}
-            height={900}
-            className="h-auto w-full max-w-xl"
+            width={1500}
+            height={1000}
+            className="h-auto w-full max-w-3xl"
           />
         </ScrollFadeIn>
       </div>
